@@ -4,13 +4,35 @@
     <meta name="title" content="Guide to Being a Better Student">
     <meta name="description" content="A guide for improving planning habits to better succeed in school">
     <link rel="stylesheet" href="styles.css">
-    <script src="/js/main.js" type="module"></script>
+    <script src='../lib/webviewer.min.js'></script>
 </head>
 <body>
     <header></header>
     <main>
-        <iframe src="images/word-screenshot.png" width="1920" height="1080" scrolling="no"></iframe>
+        <div id='viewer'></div>
     </main>
     <footer></footer>
 </body>
+<script>
+    WebViewer({
+      path: '../lib', // path to the PDF.js Express'lib' folder on your server
+      licenseKey: 'VnN2X7OLmr8W44Y2TOou',
+      initialDoc: 'pdf/Weekly Guide to Becoming a Better Student Linear.pdf',
+      // initialDoc: '/path/to/my/file.pdf',  // You can also use documents on your server
+    }, document.getElementById('viewer'))
+    .then(instance => {
+      // now you can access APIs through the WebViewer instance
+      const { Core, UI } = instance;
+  
+      // adding an event listener for when a document is loaded
+      Core.documentViewer.addEventListener('documentLoaded', () => {
+        console.log('document loaded');
+      });
+  
+      // adding an event listener for when the page number has changed
+      Core.documentViewer.addEventListener('pageNumberUpdated', (pageNumber) => {
+        console.log(`Page number is: ${pageNumber}`);
+      });
+    });
+  </script>
 </html>
