@@ -1,6 +1,8 @@
 #viewer{
 margin: 0 auto;
-width: 70%;
+min-width: 350px;
+width: 100%;
+max-width: 600px;
 position: absolute;
 min-height: 640px;
 height: 100%;
@@ -8,13 +10,17 @@ height: 100%;
 
 @media screen and (min-width: 600px){
     #viewer{
+        min-width: 600px;
         width: 100%;
+        max-width: 900px;
         min-height: 720px;
     }
 }
 @media screen and (min-width: 900px){
     #viewer{
-        width: 100%;
+        min-width: 900px;
+        width: 80%;
+        max-width: 1024;
         min-height: 850px;
     }
 }
