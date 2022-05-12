@@ -1,9 +1,12 @@
-#viewer{
+@media screen and(max-width:600px) {
+    #viewer{
     margin: 0 auto;
     width: 70%;
     position: relative;
     height: 640px;
+    }
 }
+
 @media screen and(min-width: 600px){
     #viewer{
         height: 720px;
