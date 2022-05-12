@@ -1,9 +1,11 @@
+div{
+    height: 100%;
+}
 #viewer{
 margin: 0 auto;
 min-width: 350px;
 width: 100%;
 max-width: 600px;
-position: absolute;
 max-height: 600px;
 height: 100%;
 }
