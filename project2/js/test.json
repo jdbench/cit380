@@ -1,0 +1,36 @@
+
+  {
+    "survivor": 
+      {
+        "seasons": [
+          {
+            "season": 
+              {
+                "version":"42",
+                "winner": "Jaren Brownlee",
+                "castaways": [
+                  {
+                    "name": "Jaren Brownlee",
+                    "idols": 3,
+                    "correct_votes_percent": 73.5,
+                    "confessionals": 14,
+                    "tribe_challenge_wins": 4,
+                    "individaul_challenge_wins": 2
+                  },
+                  {
+                    "name": "Justin Bench",
+                    "idols": 0,
+                    "correct_votes_percent": 24.5,
+                    "confessionals": 2,
+                    "tribe_challenge_wins": 2,
+                    "individaul_challenge_wins": 0
+                  }
+                ]
+              }
+            
+          }
+        ]
+      }
+    
+  }
+

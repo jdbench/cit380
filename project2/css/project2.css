@@ -16,7 +16,7 @@
 }
 .fact-text {
   font-family: var(--main-font-family);
-  font-size: medium;
+  font-size: large;
   margin: 0 auto;
   padding: 20px;
   width: 80%;
@@ -24,7 +24,7 @@
 .btn {
   font-family: var(--main-font-family);
   font-weight: 700;
-  font-size: large;
+  font-size: larger;
   padding: 10px;
   width: 80%;
   color: var(--text-on-background-color);
@@ -39,7 +39,6 @@
   background-color: var(--header-background-color);
   border-radius: 20px 20px 0 0;
   padding: 10px;
-  font-size: large;
 }
 .header-image {
   object-fit: cover;
@@ -54,26 +53,4 @@
   width: 100%;
   text-align: center;
   box-shadow: var(--box-shadow);
-}
-@media screen and (min-width: 600px) and (max-width: 960px) {
-  .header-text {
-    font-size: x-large;
-  }
-  .btn {
-    font-size: larger;
-  }
-  .fact-text {
-    font-size: large;
-  }
-}
-@media screen and (min-width: 960px) {
-  .header-text {
-    font-size: xx-large;
-  }
-  .btn {
-    font-size: x-large;
-  }
-  .fact-text {
-    font-size: larger;
-  }
 }
