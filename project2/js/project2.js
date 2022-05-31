@@ -1,6 +1,6 @@
 import factToPage, { generateFacts } from "./getFact.js";
 let factArray = [];
-const json = "/js/test.json";
+const json = "./js/test.json";
 const factOnPage = document.getElementById("fact");
 
 factArray = document.addEventListener("DOMContentLoaded", function () {
