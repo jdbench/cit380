@@ -1,6 +1,5 @@
-export default async function factToPage(returnElement, array) {
+export default function factToPage(returnElement, array) {
   let fact;
-  await generateFacts(array);
   fact = getFact(array);
 
   returnElement.innerHTML = fact;
