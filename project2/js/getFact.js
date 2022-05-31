@@ -19,11 +19,14 @@ export function getFact(array) {
   let randomIndex;
 
   try {
-    randomIndex = Math.floor(Math.random() * array.length);
-
-    fact = array[randomIndex];
-  } catch (error) {
-    fact = "There is no Survivor data here yet, please come back later";
+    if (array.length == 0 || array.length == undefined) {
+      fact = "There is no Survivor data here yet, please come back later";
+    } else {
+      randomIndex = Math.floor(Math.random() * array.length);
+      fact = array[randomIndex];
+    }
+  } catch (error){
+    fact = "There was an error: " + error;
   }
 
   return fact;
