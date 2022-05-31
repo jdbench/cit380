@@ -54,3 +54,14 @@
   text-align: center;
   box-shadow: var(--box-shadow);
 }
+@media screen and (max-width:600px) {
+  .fact-text{
+    font-size: medium;
+  }
+  .header-text{
+    font-size:x-large;
+  }
+  .btn{
+    font-size:large;
+  }
+}
