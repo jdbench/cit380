@@ -14,21 +14,17 @@ export async function generateFacts(json) {
 /*Function that gets the array and iterates through the array
 with random indexes*/
 export function getFact(array) {
-  let facts = [];
   let fact;
-  let randomSurvivor;
-  let randomSeason;
-  let season;
-  let survivorData;
-/*Try catch block for debugging */
+  let randomIndex;
+  /*Try catch block for debugging */
   try {
-/*If there is no data in the array, return a string. Else,
+    /*If there is no data in the array, return a string. Else,
 get a random season, get random survivor data. */
     if (array.length == 0) {
       fact = "There is no Survivor data here yet, please come back later";
     } else {
-      randomSeason = Math.floor(Math.random() * array.length);
-      console.log(array[randomSeason]);
+      randomIndex = Math.floor(Math.random()* array.length);
+      fact = array[randomIndex];
     }
   } catch (error) {
     fact = "There was an error: " + error;
@@ -37,6 +33,15 @@ get a random season, get random survivor data. */
   return fact;
 }
 
-export function createFactArray(array){
+export function createFactArray(array) {
+  let facts = [];
+  let randomSurvivor;
+  let randomSeason;
+  let season;
+  let survivorData;
 
+  randomSeason = Math.floor(Math.random() * array.length);
+  console.log(array[randomSeason]);
+
+  return facts;
 }
