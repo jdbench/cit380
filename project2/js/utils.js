@@ -18,12 +18,11 @@ export function getFact(array) {
   let randomIndex;
   /*Try catch block for debugging */
   try {
-    /*If there is no data in the array, return a string. Else,
-get a random season, get random survivor data. */
+    /*If there is no data in the array, return a string. Else, get a random fact from factArray using Math.random*/
     if (array.length == 0) {
       fact = "There is no Survivor data here yet, please come back later";
     } else {
-      randomIndex = Math.floor(Math.random()* array.length);
+      randomIndex = Math.floor(Math.random() * array.length);
       fact = array[randomIndex];
     }
   } catch (error) {
@@ -32,7 +31,7 @@ get a random season, get random survivor data. */
 
   return fact;
 }
-
+/*Get array and turn array data into trivia strings, then store this array data into the facts array */
 export function createFactArray(array) {
   let facts = [];
   let randomSurvivor;
@@ -41,7 +40,9 @@ export function createFactArray(array) {
   let survivorData;
 
   randomSeason = Math.floor(Math.random() * array.length);
-  console.log(array[randomSeason]);
+
+  season = array[randomSeason];
+  console.log(season);
 
   return facts;
 }
