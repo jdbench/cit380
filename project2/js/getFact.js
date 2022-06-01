@@ -36,3 +36,7 @@ get a random season, get random survivor data. */
 
   return fact;
 }
+
+export function createFactArray(array){
+
+}
