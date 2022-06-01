@@ -38,7 +38,7 @@ export function createFactArray(array) {
   let randomSeason;
   let season;
   let survivorData;
-
+  /*Still figuring this code out*/
   randomSeason = Math.floor(Math.random() * array.length);
 
   season = array[randomSeason];
