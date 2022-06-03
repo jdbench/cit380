@@ -52,7 +52,6 @@ export function createFactArray(array) {
 
   ];
 
-  console.log(facts);
 
   return facts;
 
