@@ -35,6 +35,7 @@
 }
 .btn:hover {
   box-shadow: var(--box-shadow-hover);
+  cursor: pointer;
 }
 .header-text {
   color: var(--header-text-color);
