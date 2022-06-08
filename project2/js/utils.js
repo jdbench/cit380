@@ -38,6 +38,8 @@ export function createFactArray(array) {
   let randomSeason;
   let season;
   let survivorData;
+
+
   /*Get random season and then a random survivor from the season using math.random*/
   randomSeason = Math.floor(Math.random() * array.length);
   randomSurvivor = Math.floor(Math.random() * array[randomSeason].data.length);
@@ -48,12 +50,14 @@ export function createFactArray(array) {
   facts = [
     `In Season ${season.version_season}, ${survivorData.name} lasted ${survivorData.szn_days} days.`,
     `${survivorData.name} has lasted ${survivorData.total_days} total days on Survivor.`,
-    `${survivorData.name} ` + isSurvivorDead(survivorData),
+    `${survivorData.name} ` + isSurvivorDead(survivorData), 
 
   ];
 
 
   return facts;
+
+
 
   function isSurvivorDead(survivorData){
     if (survivorData.deceased == true){
