@@ -53,8 +53,14 @@
   margin: 0 auto;
   border-radius: 20px;
   width: 40%;
+  min-width: 438px;
   text-align: center;
   box-shadow: var(--box-shadow);
+}
+@media  screen and (max-width:986px) {
+  .content{
+    width: 70%;
+  }
 }
 @media screen and (max-width:600px) {
   .fact-text{
@@ -65,5 +71,10 @@
   }
   .btn{
     font-size:large;
+  }
+  .content{
+    min-width: 350px;
+    width: 90%;
+    margin-top: 25%;
   }
 }
