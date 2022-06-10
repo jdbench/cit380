@@ -63,3 +63,10 @@ export function createFactArray(array) {
     }
   }
 }
+
+export function filterSzn(array, input){
+}
+
+export function pushOptions(json, element){
+  let options = document.getElementById("season");
+}

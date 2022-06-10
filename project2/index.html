@@ -2,11 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="title" content="Random Survivor Fact" />
+    <title>Random Survivor Fact</title>
     <meta
       name="description"
       content="Generate a random survivor fact with the click of a button!"
     />
+    <meta name="viewport" content="width=device-width", initial-scale="1.0"/>
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="./css/project2.css" />
     <script src="./js/project2.js" type="module"></script>
@@ -26,6 +27,11 @@
         </div>
       </header>
       <main class="main">
+        <div class="seasons">
+          <label class="label" for="season-select">Choose a Season:</label>
+          <select title="Choose a Season" name="season-select" id="season">
+          </select>
+        </div>
         <p id="fact" class="fact-text">
           Push the button to get a random Survivor fact...
         </p>

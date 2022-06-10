@@ -20,8 +20,8 @@
   margin: 0 auto;
   padding: 20px;
   width: 80%;
+  height: 20px;
 }
-
 .btn {
   font-family: var(--main-font-family);
   font-weight: 700;
@@ -53,17 +53,29 @@
   margin: 0 auto;
   border-radius: 20px;
   width: 40%;
+  min-width: 438px;
   text-align: center;
   box-shadow: var(--box-shadow);
+}
+@media  screen and (max-width:986px) {
+  .content{
+    width: 70%;
+  }
 }
 @media screen and (max-width:600px) {
   .fact-text{
     font-size: x-large;
+    height: 25px;
   }
   .header-text{
     font-size:x-large;
   }
   .btn{
     font-size:large;
+  }
+  .content{
+    min-width: 350px;
+    width: 90%;
+    margin-top: 25%;
   }
 }
