@@ -32,19 +32,23 @@ export function getFact(array) {
   return fact;
 }
 /*Get array and turn array data into trivia strings, then store this array data into the facts array */
-export function createFactArray(array) {
+export function createFactArray(array, szn) {
   let facts = [];
   let randomSurvivor;
   let randomSeason;
   let season;
   let survivorData;
   /*Get random season and then a random survivor from the season using math.random*/
-  randomSeason = Math.floor(Math.random() * array.length);
-  randomSurvivor = Math.floor(Math.random() * array[randomSeason].data.length);
+  if (szn == undefined || szn == "no"){
+    randomSeason = Math.floor(Math.random() * array.length);
+    randomSurvivor = Math.floor(Math.random() * array[randomSeason].data.length);
 
-  season = array[randomSeason];
-  survivorData = array[randomSeason].data[randomSurvivor];
-
+    season = array[randomSeason];
+    survivorData = array[randomSeason].data[randomSurvivor];
+  } else{
+    season = array[szn];
+    survivorData = array[szn].data[Math.floor(Math.random()*array[szn].data.length)];
+  }
   facts = [
     `In Season ${season.version_season}, ${survivorData.name} lasted ${survivorData.szn_days} days.`,
     `${survivorData.name} has lasted ${survivorData.total_days} total days on Survivor.`,
@@ -64,9 +68,23 @@ export function createFactArray(array) {
   }
 }
 
-export function filterSzn(array, input){
+export function filterSzn(){
+  let select = document.getElementById("season");
+  return select.value;
 }
 
 export function pushOptions(json, element){
-  let options = document.getElementById("season");
+  let i;
+  let option;
+  let season;
+
+  for (i = 0; i<json.length;i++){
+    season = json[i].version_season;
+    option = document.createElement('option');
+    option.id = `szn-${season}`;
+    option.value = i;
+    option.innerHTML = `${season}`;
+
+    element.appendChild(option);
+  }
 }

@@ -2,11 +2,14 @@ import factToPage, { generateFacts, createFactArray, filterSzn, pushOptions } fr
 let factArray = [];
 const json = "./js/sample.json";
 const factOnPage = document.getElementById("fact");
+const options = document.getElementById("season");
+let szn;
 
 /*When javascript loads, generate a fact array*/
 generateFacts(json).then((data) => {
   factArray = data;
-  factArray = createFactArray(factArray);
+  factArray = createFactArray(factArray, szn);
+  pushOptions(data, options);
 });
 
 /*Onclick of get fact button, run factToPage function which will output
@@ -18,6 +21,14 @@ document.getElementById("get-fact").addEventListener("click", function () {
   factToPage(factOnPage, factArray);
   generateFacts(json).then((data) => {
     factArray = data;
-    factArray = createFactArray(factArray);
+    factArray = createFactArray(factArray, szn);
   });
 });
+
+document.getElementById("season").addEventListener("change", function(){
+  szn = filterSzn();
+  generateFacts(json).then((data) => {
+    factArray = data;
+    factArray = createFactArray(factArray, szn);
+  });
+})

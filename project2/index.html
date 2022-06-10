@@ -29,13 +29,14 @@
       <main class="main">
         <div class="seasons">
           <label class="label" for="season-select">Choose a Season:</label>
-          <select title="Choose a Season" name="season-select" id="season">
+          <select name="season-select" id="season" required>
+            <option value="no">No</option>
           </select>
         </div>
         <p id="fact" class="fact-text">
           Push the button to get a random Survivor fact...
         </p>
-        <button id="get-fact" class="btn">Get Fact</button>
+        <button type="button" id="get-fact" class="btn">Get Fact</button>
       </main>
       <footer></footer>
     </div>
