@@ -10,7 +10,7 @@
     "idolsPlayedSeason": 3,
     "idolsWastedSeason": 0,
     "votesNullifiedSeason": 4,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0214",
         "idolsFound_Clue": 1,
@@ -110,7 +110,7 @@
     "idolsPlayedSeason": 0,
     "idolsWastedSeason": 2,
     "votesNullifiedSeason": 0,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0231",
         "idolsFound_Clue": 1,
@@ -164,7 +164,7 @@
     "idolsPlayedSeason": 1,
     "idolsWastedSeason": 2,
     "votesNullifiedSeason": 4,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0244",
         "idolsFound_Clue": 1,
@@ -240,7 +240,7 @@
     "idolsPlayedSeason": 1,
     "idolsWastedSeason": 1,
     "votesNullifiedSeason": 2,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0262",
         "idolsFound_Clue": 0,
@@ -316,7 +316,7 @@
     "idolsPlayedSeason": 0,
     "idolsWastedSeason": 1,
     "votesNullifiedSeason": 0,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0278",
         "idolsFound_Clue": 1,
@@ -370,7 +370,7 @@
     "idolsPlayedSeason": 2,
     "idolsWastedSeason": 1,
     "votesNullifiedSeason": 7,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0300",
         "idolsFound_Clue": 1,
@@ -448,7 +448,7 @@
     "idolsPlayedSeason": 6,
     "idolsWastedSeason": 0,
     "votesNullifiedSeason": 14,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0025",
         "idolsFound_Clue": 0,
@@ -634,7 +634,7 @@
     "idolsPlayedSeason": 2,
     "idolsWastedSeason": 0,
     "votesNullifiedSeason": 1,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0319",
         "idolsFound_Clue": 0,
@@ -732,7 +732,7 @@
     "idolsPlayedSeason": 3,
     "idolsWastedSeason": 0,
     "votesNullifiedSeason": 3,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0324",
         "idolsFound_Clue": 0,
@@ -832,7 +832,7 @@
     "idolsPlayedSeason": 1,
     "idolsWastedSeason": 0,
     "votesNullifiedSeason": 0,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0347",
         "idolsFound_Clue": 0,
@@ -908,7 +908,7 @@
     "idolsPlayedSeason": 1,
     "idolsWastedSeason": 1,
     "votesNullifiedSeason": 2,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0371",
         "idolsFound_Clue": 0,
@@ -1004,7 +1004,7 @@
     "idolsPlayedSeason": 2,
     "idolsWastedSeason": 0,
     "votesNullifiedSeason": 8,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0196",
         "idolsFound_Clue": 1,
@@ -1082,7 +1082,7 @@
     "idolsPlayedSeason": 4,
     "idolsWastedSeason": 1,
     "votesNullifiedSeason": 7,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0246",
         "idolsFound_Clue": 1,
@@ -1244,7 +1244,7 @@
     "idolsPlayedSeason": 2,
     "idolsWastedSeason": 0,
     "votesNullifiedSeason": 2,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0010",
         "idolsFound_Clue": 0,
@@ -1322,7 +1322,7 @@
     "idolsPlayedSeason": 4,
     "idolsWastedSeason": 1,
     "votesNullifiedSeason": 0,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0416",
         "idolsFound_Clue": 0,
@@ -1422,7 +1422,7 @@
     "idolsPlayedSeason": 3,
     "idolsWastedSeason": 2,
     "votesNullifiedSeason": 10,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0437",
         "idolsFound_Clue": 2,
@@ -1542,7 +1542,7 @@
     "idolsPlayedSeason": 3,
     "idolsWastedSeason": 0,
     "votesNullifiedSeason": 16,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0460",
         "idolsFound_Clue": 1,
@@ -1622,7 +1622,7 @@
     "idolsPlayedSeason": 4,
     "idolsWastedSeason": 0,
     "votesNullifiedSeason": 20,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0433",
         "idolsFound_Clue": 2,
@@ -1744,7 +1744,7 @@
     "idolsPlayedSeason": 0,
     "idolsWastedSeason": 2,
     "votesNullifiedSeason": 0,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0476",
         "idolsFound_Clue": 1,
@@ -1838,7 +1838,7 @@
     "idolsPlayedSeason": 6,
     "idolsWastedSeason": 0,
     "votesNullifiedSeason": 11,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0495",
         "idolsFound_Clue": 0,
@@ -2024,7 +2024,7 @@
     "idolsPlayedSeason": 5,
     "idolsWastedSeason": 1,
     "votesNullifiedSeason": 12,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0477",
         "idolsFound_Clue": 0,
@@ -2208,7 +2208,7 @@
     "idolsPlayedSeason": 7,
     "idolsWastedSeason": 1,
     "votesNullifiedSeason": 15,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0516",
         "idolsFound_Clue": 2,
@@ -2396,7 +2396,7 @@
     "idolsPlayedSeason": 6,
     "idolsWastedSeason": 1,
     "votesNullifiedSeason": 9,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0521",
         "idolsFound_Clue": 0,
@@ -2600,7 +2600,7 @@
     "idolsPlayedSeason": 7,
     "idolsWastedSeason": 0,
     "votesNullifiedSeason": 16,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0546",
         "idolsFound_Clue": 1,
@@ -2768,7 +2768,7 @@
     "idolsPlayedSeason": 6,
     "idolsWastedSeason": 2,
     "votesNullifiedSeason": 12,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0429",
         "idolsFound_Clue": 0,
@@ -2974,7 +2974,7 @@
     "idolsPlayedSeason": 7,
     "idolsWastedSeason": 4,
     "votesNullifiedSeason": 14,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0573",
         "idolsFound_Clue": 0,
@@ -3222,7 +3222,7 @@
     "idolsPlayedSeason": 8,
     "idolsWastedSeason": 1,
     "votesNullifiedSeason": 14,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0386",
         "idolsFound_Clue": 0,
@@ -3452,7 +3452,7 @@
     "idolsPlayedSeason": 1,
     "idolsWastedSeason": 3,
     "votesNullifiedSeason": 0,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0597",
         "idolsFound_Clue": 0,
@@ -3548,7 +3548,7 @@
     "idolsPlayedSeason": 3,
     "idolsWastedSeason": 0,
     "votesNullifiedSeason": 0,
-    "data": [
+    "idolData": [
       {
         "castaway_id": "US0611",
         "idolsFound_Clue": 0,
