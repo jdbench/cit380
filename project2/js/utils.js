@@ -59,6 +59,7 @@ export function createFactArray(array, szn) {
   console.log(error);
   console.log(season);
   console.log(castData);
+  console.log(idolData);
 }
 
   facts = [
