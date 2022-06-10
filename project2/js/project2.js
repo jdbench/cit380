@@ -1,4 +1,4 @@
-import factToPage, { generateFacts, createFactArray, filterYear } from "./utils.js";
+import factToPage, { generateFacts, createFactArray, filterSzn, pushOptions } from "./utils.js";
 let factArray = [];
 const json = "./js/sample.json";
 const factOnPage = document.getElementById("fact");
