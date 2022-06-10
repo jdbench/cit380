@@ -34,33 +34,45 @@ export function getFact(array) {
 /*Get array and turn array data into trivia strings, then store this array data into the facts array */
 export function createFactArray(array, szn) {
   let facts = [];
-  let randomSurvivor;
+  let randomCast;
   let randomSeason;
+  let randomIdol;
   let season;
-  let survivorData;
+  let castData;
+  let idolData;
   /*Get random season and then a random survivor from the season using math.random*/
+  try{
   if (szn == undefined || szn == "no"){
     randomSeason = Math.floor(Math.random() * array.length);
-    randomSurvivor = Math.floor(Math.random() * array[randomSeason].data.length);
+    randomCast = Math.floor(Math.random() * array[randomSeason].castData.length);
+    randomIdol = Math.floor(Math.random() * array[randomSeason].idolData.length);
 
     season = array[randomSeason];
-    survivorData = array[randomSeason].data[randomSurvivor];
+    castData = array[randomSeason].castData[randomCast];
+    idolData = array[randomSeason].idolData[randomIdol];
   } else{
     season = array[szn];
-    survivorData = array[szn].data[Math.floor(Math.random()*array[szn].data.length)];
+    castData = array[szn].castData[Math.floor(Math.random()*array[szn].castData.length)];
+    idolData = array[szn].idolData[Math.floor(Math.random()*array[szn].idolData.length)];
   }
+}catch(error){
+  console.log(error);
+  console.log(season);
+  console.log(castData);
+}
+
   facts = [
-    `In Season ${season.version_season}, ${season.season_name}, ${survivorData.name} lasted ${survivorData.szn_days} days.`,
-    `${survivorData.name} has lasted ${survivorData.total_days} total days on Survivor.`,
-    `${survivorData.name} ` + isSurvivorDead(survivorData),
+    `In Season ${season.version_season}, ${season.season_name}, ${castData.name} lasted ${castData.szn_days} days.`,
+    `${castData.name} has lasted ${castData.total_days} total days on Survivor.`,
+    `${castData.name} ` + isSurvivorDead(castData),
 
   ];
 
 
   return facts;
 
-  function isSurvivorDead(survivorData){
-    if (survivorData.deceased == true){
+  function isSurvivorDead(castData){
+    if (castData.deceased == true){
       return "is no longer living.";
     }else {
       return "is still living."

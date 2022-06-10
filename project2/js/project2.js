@@ -1,6 +1,6 @@
 import factToPage, { generateFacts, createFactArray, filterSzn, pushOptions } from "./utils.js";
 let factArray = [];
-const json = "./js/sample.json";
+const json = "./data/full.json";
 const factOnPage = document.getElementById("fact");
 const options = document.getElementById("season");
 let szn;
