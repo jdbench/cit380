@@ -50,7 +50,7 @@ export function createFactArray(array, szn) {
     survivorData = array[szn].data[Math.floor(Math.random()*array[szn].data.length)];
   }
   facts = [
-    `In Season ${season.version_season}, ${survivorData.name} lasted ${survivorData.szn_days} days.`,
+    `In Season ${season.version_season}, ${season.season_name}, ${survivorData.name} lasted ${survivorData.szn_days} days.`,
     `${survivorData.name} has lasted ${survivorData.total_days} total days on Survivor.`,
     `${survivorData.name} ` + isSurvivorDead(survivorData),
 
