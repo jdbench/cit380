@@ -63,3 +63,7 @@ export function createFactArray(array) {
     }
   }
 }
+
+export function filterSzn(){
+  
+}
