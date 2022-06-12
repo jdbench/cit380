@@ -37,63 +37,131 @@ export function createFactArray(array, szn) {
   let randomCast;
   let randomSeason;
   let randomIdol;
+  let randomBootMap;
   let season;
   let castData;
   let idolData;
+  let bootMapping;
   /*Get random season and then a random survivor from the season using math.random*/
-  try{
-  if (szn == undefined || szn == "no"){
-    randomSeason = Math.floor(Math.random() * array.length);
-    randomCast = Math.floor(Math.random() * array[randomSeason].castData.length);
-    randomIdol = Math.floor(Math.random() * array[randomSeason].idolData.length);
+  try {
+    if (szn == undefined || szn == "no") {
+      randomSeason = Math.floor(Math.random() * array.length);
+      randomCast = Math.floor(
+        Math.random() * array[randomSeason].castData.length
+      );
+      randomIdol = Math.floor(
+        Math.random() * array[randomSeason].idolData.length
+      );
+      randomBootMap = Math.floor(
+        Math.random() * array[randomSeason].bootMapping.length
+      );
 
-    season = array[randomSeason];
-    castData = array[randomSeason].castData[randomCast];
-    idolData = array[randomSeason].idolData[randomIdol];
-  } else{
-    season = array[szn];
-    castData = array[szn].castData[Math.floor(Math.random()*array[szn].castData.length)];
-    idolData = array[szn].idolData[Math.floor(Math.random()*array[szn].idolData.length)];
+      season = array[randomSeason];
+      castData = array[randomSeason].castData[randomCast];
+      idolData = array[randomSeason].idolData[randomIdol];
+      bootMapping = array[randomSeason].bootMapping[randomBootMap];
+    } else {
+      season = array[szn];
+      castData =
+        array[szn].castData[
+          Math.floor(Math.random() * array[szn].castData.length)
+        ];
+      idolData =
+        array[szn].idolData[
+          Math.floor(Math.random() * array[szn].idolData.length)
+        ];
+      bootMapping =
+        array[szn].idolData[
+          Math.floor(Math.random() * array[szn].bootMapping.length)
+        ];
+    }
+  } catch (error) {
+    console.log(error);
+    console.log(season);
+    console.log(castData);
+    console.log(idolData);
+    console.log(bootMapping);
   }
-}catch(error){
-  console.log(error);
-  console.log(season);
-  console.log(castData);
-  console.log(idolData);
-}
 
   facts = [
     `In Season ${season.version_season}, ${season.season_name}, ${castData.name} lasted ${castData.szn_days} days.`,
     `${castData.name} has lasted ${castData.total_days} total days on Survivor.`,
     `${castData.name} ` + isSurvivorDead(castData),
-
+    `${bootMapping.name} ${castOut(bootMapping).toLowerCase()} Season ${season.version_season}, ${season.season_name}.`,
+    `${bootMapping.name} finished ${bootMapping.placement[0].place}${fixPlaceEnd(bootMapping)} in Season ${season.version_season}, ${season.season_name}.`,
+    `In Season ${season.version_season}, ${season.season_name}, ${bootMapping.name} ${wasVotedByJury(bootMapping)}`,
   ];
-
 
   return facts;
 
-  function isSurvivorDead(castData){
-    if (castData.deceased == true){
+  function isSurvivorDead(castData) {
+    if (castData.deceased == true) {
       return "is no longer living.";
-    }else {
-      return "is still living."
+    } else {
+      return "is still living.";
+    }
+  }
+  function wasVotedByJury(bootMapping) {
+    if (bootMapping.jury == true) {
+      return "was voted out by a jury.";
+    } else {
+      return "was not voted out by a jury.";
+    }
+  }
+  function castOut(bootMapping) {
+    if (bootMapping.placement[0].elimination == "Voted Out") {
+      return "was voted out in";
+    } else if (bootMapping.placement[0].elimination == "Quit") {
+      return "quit during";
+    } else {
+      return `was the ${bootMapping.placement[0].elimination} in`;
+    }
+  }
+  function fixPlaceEnd(bootMapping) {
+    let placed = bootMapping.placement[0].place;
+    if (
+      placed == "1" ||
+      placed == "21" ||
+      placed == "31" ||
+      placed == "41" ||
+      placed == "51"
+    ) {
+      return "st";
+    } else if (
+      placed == "2" ||
+      placed == "22" ||
+      placed == "32" ||
+      placed == "42" ||
+      placed == "52"
+    ) {
+      return "nd";
+    } else if (
+      placed == "3" ||
+      placed == "23" ||
+      placed == "33" ||
+      placed == "43" ||
+      placed == "53"
+    ) {
+      return "rd";
+    } else {
+      return "th";
     }
   }
 }
 
-export function filterSzn(){
+export function filterSzn() {
   let select = document.getElementById("season");
   return select.value;
 }
 
-export function pushOptions(json, element){
+export function pushOptions(json, element) {
   let i;
   let option;
   let season;
 
-  for (i = 0; i<json.length;i++){
+  for (i = 0; i < json.length; i++) {
     season = json[i].version_season;
-    option = document.createElement('option');
+    option = document.createElement("option");
     option.id = `szn-${season}`;
     option.value = i;
     option.innerHTML = `${season}`;
