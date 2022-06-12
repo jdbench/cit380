@@ -236,6 +236,184 @@
         "seasons": 2,
         "avg_days": 27
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0001",
+        "name": "Sonja Christopher",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0002",
+        "name": "B.B. Andersen",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0003",
+        "name": "Stacey Stillman",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0004",
+        "name": "Ramona Gray",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0005",
+        "name": "Dirk Been",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0006",
+        "name": "Joel Klug",
+        "jury": false,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0007",
+        "name": "Gretchen Cordy",
+        "jury": false,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0008",
+        "name": "Greg Buis",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0009",
+        "name": "Jenna Lewis",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0010",
+        "name": "Gervase Peterson",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0011",
+        "name": "Colleen Haskell",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0012",
+        "name": "Sean Kenniff",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0013",
+        "name": "Susan \"Sue\" Hawk",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0014",
+        "name": "Rudy Boesch",
+        "jury": true,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0015",
+        "name": "Kelly Wiglesworth",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0016",
+        "name": "Richard Hatch",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -474,6 +652,184 @@
         "szn_days": 42,
         "seasons": 3,
         "avg_days": 27.67
+      }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0017",
+        "name": "Debb Eaton",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0018",
+        "name": "Kel Gleason",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0019",
+        "name": "Maralyn Hershey",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0020",
+        "name": "Mitchell Olson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0021",
+        "name": "Kimmi Kappenberg",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0022",
+        "name": "Michael Skupin",
+        "jury": false,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "MedEvac"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0023",
+        "name": "Jeff Varner",
+        "jury": false,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0024",
+        "name": "Alicia Calaway",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0025",
+        "name": "Jerri Manthey",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0026",
+        "name": "Nick Brown",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0027",
+        "name": "Amber Mariano",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0028",
+        "name": "Rodger Bingham",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0029",
+        "name": "Elisabeth Filarski",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0030",
+        "name": "Keith Famie",
+        "jury": true,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0031",
+        "name": "Colby Donaldson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0032",
+        "name": "Tina Wesson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
       }
     ]
   },
@@ -714,6 +1070,184 @@
         "seasons": 3,
         "avg_days": 23
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0033",
+        "name": "Diane Ogden",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0034",
+        "name": "Jessie Camacho",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0035",
+        "name": "Carl Bilancione",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0036",
+        "name": "Linda Spencer",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0037",
+        "name": "Silas Gaither",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0038",
+        "name": "Lindsey Richter",
+        "jury": false,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0039",
+        "name": "Clarence Black",
+        "jury": false,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0040",
+        "name": "Kelly Goldsmith",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0041",
+        "name": "Brandon Quinton",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0042",
+        "name": "Frank Garrison",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0043",
+        "name": "Kim Powers",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0044",
+        "name": "Teresa Cooper",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0045",
+        "name": "Tom Buchanan",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0046",
+        "name": "Lex van den Berghe",
+        "jury": true,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0047",
+        "name": "Kim Johnson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0048",
+        "name": "Ethan Zohn",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -952,6 +1486,184 @@
         "szn_days": 39,
         "seasons": 1,
         "avg_days": 39
+      }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0049",
+        "name": "Peter Harkey",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0050",
+        "name": "Patricia Jackson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0051",
+        "name": "Hunter Ellis",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0052",
+        "name": "Sarah Jones",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0053",
+        "name": "Gabriel Cade",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0054",
+        "name": "Gina Crews",
+        "jury": false,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0055",
+        "name": "Rob \"Boston Rob\" Mariano",
+        "jury": false,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0056",
+        "name": "John Carroll",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0057",
+        "name": "Zoe Zanidakis",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0058",
+        "name": "Tammy Leitner",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0059",
+        "name": "Robert DeCanio",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0060",
+        "name": "Sean Rector",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0061",
+        "name": "Paschal English",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Final Four Rock Draw"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0062",
+        "name": "Kathy Vavrick-O'Brien",
+        "jury": true,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0063",
+        "name": "Neleh Dennis",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0064",
+        "name": "Vecepia Towery",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
       }
     ]
   },
@@ -1192,6 +1904,184 @@
         "seasons": 1,
         "avg_days": 39
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0065",
+        "name": "John Raymond",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0066",
+        "name": "Tanya Vance",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0067",
+        "name": "Jed Hildebrand",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0068",
+        "name": "Ghandia Johnson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0069",
+        "name": "Stephanie Dill",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0070",
+        "name": "Robert \"Robb\" Zbacnik",
+        "jury": false,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0071",
+        "name": "Shii Ann Huang",
+        "jury": false,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0072",
+        "name": "Erin Collins",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0073",
+        "name": "Ken Stafford",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0074",
+        "name": "Penny Ramsey",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0075",
+        "name": "Jake Billingsley",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0076",
+        "name": "Ted Rogers Jr.",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0077",
+        "name": "Helen Glover",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0078",
+        "name": "Jan Gentry",
+        "jury": true,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0079",
+        "name": "Clay Jordan",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0080",
+        "name": "Brian Heidik",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1431,6 +2321,184 @@
         "seasons": 2,
         "avg_days": 24
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0081",
+        "name": "Ryan Aiken",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0082",
+        "name": "Janet Koth",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0083",
+        "name": "Daniel Lue",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0084",
+        "name": "JoAnna Ward",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0085",
+        "name": "Jeanne Hebert",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0086",
+        "name": "Shawna Mitchell",
+        "jury": false,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0087",
+        "name": "Roger Sexton",
+        "jury": false,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0088",
+        "name": "Dave Johnson",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0089",
+        "name": "Deena Bennett",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0090",
+        "name": "Alex Bell",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0091",
+        "name": "Christy Smith",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0092",
+        "name": "Heidi Strobel",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0093",
+        "name": "Butch Lockley",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0094",
+        "name": "Rob Cesternino",
+        "jury": true,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0095",
+        "name": "Matthew von Ertfelda",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0096",
+        "name": "Jenna Morasca",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -1669,6 +2737,181 @@
         "szn_days": 39,
         "seasons": 4,
         "avg_days": 27.5
+      }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0097",
+        "name": "Nicole Delma",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0098",
+        "name": "Ryan Shoulders",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0099",
+        "name": "Lillian Morris",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out but Returned"
+          },
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0100",
+        "name": "Burton Roberts",
+        "jury": true,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out but Returned"
+          },
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0101",
+        "name": "Michelle Tesauro",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0102",
+        "name": "Trish Dunn",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0103",
+        "name": "Shawn Cohen",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0104",
+        "name": "Osten Taylor",
+        "jury": false,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Quit"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0105",
+        "name": "Andrew Savage",
+        "jury": false,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0106",
+        "name": "Ryan Opray",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0107",
+        "name": "Rupert Boneham",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0108",
+        "name": "Tijuana Bradley",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0109",
+        "name": "Christa Hastie",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0111",
+        "name": "Jon \"Jonny Fairplay\" Dalton",
+        "jury": true,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0112",
+        "name": "Sandra Diaz-Twine",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
       }
     ]
   },
@@ -1937,6 +3180,206 @@
         "seasons": 4,
         "avg_days": 25.25
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0032",
+        "name": "Tina Wesson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0014",
+        "name": "Rudy Boesch",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0096",
+        "name": "Jenna Morasca",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Quit"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0094",
+        "name": "Rob Cesternino",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0016",
+        "name": "Richard Hatch",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0013",
+        "name": "Susan \"Sue\" Hawk",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Quit"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0031",
+        "name": "Colby Donaldson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0048",
+        "name": "Ethan Zohn",
+        "jury": false,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0025",
+        "name": "Jerri Manthey",
+        "jury": false,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0046",
+        "name": "Lex van den Berghe",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0062",
+        "name": "Kathy Vavrick-O'Brien",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0024",
+        "name": "Alicia Calaway",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0071",
+        "name": "Shii Ann Huang",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0045",
+        "name": "Tom Buchanan",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0107",
+        "name": "Rupert Boneham",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0009",
+        "name": "Jenna Lewis",
+        "jury": true,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0055",
+        "name": "Rob \"Boston Rob\" Mariano",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0027",
+        "name": "Amber Mariano",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2203,6 +3646,195 @@
         "szn_days": 39,
         "seasons": 1,
         "avg_days": 39
+      }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0113",
+        "name": "Brook Geraghty",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0114",
+        "name": "Dolly Neely",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0115",
+        "name": "John Palyok",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0117",
+        "name": "Brady Finta",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0118",
+        "name": "Travis Sampson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0119",
+        "name": "Lisa Keiffer",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0120",
+        "name": "John Kenney",
+        "jury": false,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0121",
+        "name": "Rory Freeman",
+        "jury": false,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0122",
+        "name": "Lea Masters",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0123",
+        "name": "James \"Chad\" Crittenden",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0124",
+        "name": "Leann Slaby",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0125",
+        "name": "Ami Cusack",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0126",
+        "name": "Julie Berry",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0127",
+        "name": "Eliza Orlins",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0128",
+        "name": "Scout Cloud Lee",
+        "jury": true,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0129",
+        "name": "Twila Tanner",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0130",
+        "name": "Chris Daugherty",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
       }
     ]
   },
@@ -2499,6 +4131,195 @@
         "seasons": 2,
         "avg_days": 26.5
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0133",
+        "name": "Jolanda Jones",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0134",
+        "name": "Ashlee Ashby",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0135",
+        "name": "Jeff Wilson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0136",
+        "name": "Kimberly Mullen",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0137",
+        "name": "Willard Smith",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0138",
+        "name": "Angie Jakusz",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0139",
+        "name": "James Miller",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0140",
+        "name": "Ibrehem Rahman",
+        "jury": false,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0142",
+        "name": "Coby Archa",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0143",
+        "name": "Janu Tornell",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Quit"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0144",
+        "name": "Stephenie LaGrossa",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0145",
+        "name": "Gregg Carey",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0146",
+        "name": "Caryn Groedel",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0147",
+        "name": "Jennifer Lyon",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0148",
+        "name": "Ian Rosenberger",
+        "jury": true,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0149",
+        "name": "Katie Gallagher",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0150",
+        "name": "Tom Westman",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -2789,6 +4610,206 @@
         "seasons": 2,
         "avg_days": 22.5
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0151",
+        "name": "Jim Lynch",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0152",
+        "name": "Morgan McDevitt",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0153",
+        "name": "Brianna Varela",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0154",
+        "name": "Brooke Struck",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0155",
+        "name": "Blake Towsley",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0156",
+        "name": "Margaret Bobonich",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0157",
+        "name": "Brian Corridan",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0158",
+        "name": "Amy O'Hara",
+        "jury": false,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0159",
+        "name": "Brandon Bellinger",
+        "jury": false,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0141",
+        "name": "Bobby Jon Drinkard",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0160",
+        "name": "Jamie Newton",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0161",
+        "name": "Gary Hogeboom",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0162",
+        "name": "Judd Sergeant",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0163",
+        "name": "Cindy Hall",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0164",
+        "name": "Lydia Morales",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0165",
+        "name": "Rafe Judkins",
+        "jury": true,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0144",
+        "name": "Stephenie LaGrossa",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0166",
+        "name": "Danni Boatwright",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -3048,6 +5069,184 @@
         "szn_days": 39,
         "seasons": 2,
         "avg_days": 30
+      }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0167",
+        "name": "Tina Scheer",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0168",
+        "name": "Melinda Hyder",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0169",
+        "name": "Misty Giles",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0170",
+        "name": "Ruth Marie Milliman",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0171",
+        "name": "Bobby Mason",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0172",
+        "name": "Dan Barry",
+        "jury": false,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0173",
+        "name": "Nick Stanbury",
+        "jury": false,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0174",
+        "name": "Austin Carty",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0175",
+        "name": "Sally Schumann",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0176",
+        "name": "Bruce Kanegai",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "MedEvac"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0177",
+        "name": "Courtney Marit",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0178",
+        "name": "Shane Powers",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0179",
+        "name": "Cirie Fields",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0180",
+        "name": "Terry Deitz",
+        "jury": true,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0181",
+        "name": "Danielle DiLorenzo",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0182",
+        "name": "Aras Baskauskas",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
       }
     ]
   },
@@ -3364,6 +5563,228 @@
         "szn_days": 39,
         "seasons": 2,
         "avg_days": 28.5
+      }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0183",
+        "name": "Sekou Bunch",
+        "jury": false,
+        "placement": [
+          {
+            "place": 20,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0184",
+        "name": "Virgilio \"Billy\" Garcia",
+        "jury": false,
+        "placement": [
+          {
+            "place": 19,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0185",
+        "name": "Cecilia Mansilla",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0186",
+        "name": "John \"J.P.\" Calderon",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0187",
+        "name": "Stephannie Favor",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0188",
+        "name": "Anh-Tuan \"Cao Boi\" Bui",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0189",
+        "name": "Cristina Coria",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0190",
+        "name": "Jessica Smith",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0191",
+        "name": "Brad Virata",
+        "jury": true,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0192",
+        "name": "Rebecca Borman",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0193",
+        "name": "Jenny Guzon-Bae",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0194",
+        "name": "Nathan \"Nate\" Gonzalez",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0195",
+        "name": "Candice Cody",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0196",
+        "name": "Jonathan Penner",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0197",
+        "name": "Parvati Shallow",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0198",
+        "name": "Adam Gentry",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0199",
+        "name": "Sundra Oakley",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0200",
+        "name": "Rebekah \"Becky\" Lee",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0201",
+        "name": "Oscar \"Ozzy\" Lusth",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0202",
+        "name": "Yul Kwon",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
       }
     ]
   },
@@ -3733,6 +6154,217 @@
         "seasons": 1,
         "avg_days": 39
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0203",
+        "name": "Jessica deBen",
+        "jury": false,
+        "placement": [
+          {
+            "place": 19,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0204",
+        "name": "Erica Durousseau",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0205",
+        "name": "Sylvia Kwan",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0206",
+        "name": "Gary Stritesky",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Quit"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0207",
+        "name": "Liliana Gomez",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0208",
+        "name": "Rita Verreos",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0209",
+        "name": "Anthony Robinson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0210",
+        "name": "James \"Rocky\" Reid",
+        "jury": true,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0211",
+        "name": "Lisette \"Lisi\" Linares",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0212",
+        "name": "Michelle Yi",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0213",
+        "name": "Edgardo Rivera",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0214",
+        "name": "Mookie Lee",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0215",
+        "name": "Alex Angarita",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0216",
+        "name": "Stacy Kimball",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0217",
+        "name": "Kenward \"Boo\" Bernis",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0218",
+        "name": "Yau-Man Chan",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0219",
+        "name": "Andria \"Dreamz\" Herd",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0220",
+        "name": "Cassandra Franklin",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0221",
+        "name": "Earl Cole",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -4012,6 +6644,184 @@
         "szn_days": 39,
         "seasons": 1,
         "avg_days": 39
+      }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0222",
+        "name": "Steve \"Chicken\" Morris",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0223",
+        "name": "Ashley Massaro",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0224",
+        "name": "Leslie Nease",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0225",
+        "name": "Dave Cruser",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0226",
+        "name": "Aaron Reisberger",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0227",
+        "name": "Sherea Lloyd",
+        "jury": false,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0228",
+        "name": "Jaime Dugan",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0229",
+        "name": "Jean-Robert Bellande",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0230",
+        "name": "Michael \"Frosti\" Zernow",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0231",
+        "name": "James Clement",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0232",
+        "name": "Erik Huffman",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0233",
+        "name": "Peih-Gee Law",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0234",
+        "name": "Denise Martin",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0235",
+        "name": "Amanda Kimmel",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0236",
+        "name": "Courtney Yates",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0237",
+        "name": "Todd Herzog",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
       }
     ]
   },
@@ -4371,6 +7181,217 @@
         "seasons": 1,
         "avg_days": 37
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0111",
+        "name": "Jon \"Jonny Fairplay\" Dalton",
+        "jury": false,
+        "placement": [
+          {
+            "place": 20,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0238",
+        "name": "Mary Sartain",
+        "jury": false,
+        "placement": [
+          {
+            "place": 19,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0218",
+        "name": "Yau-Man Chan",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0239",
+        "name": "Michael \"Mikey B\" Bortone",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0240",
+        "name": "Joel Anderson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0196",
+        "name": "Jonathan Penner",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "MedEvac"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0241",
+        "name": "Chet Welch",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0242",
+        "name": "Kathleen \"Kathy\" Sleckman",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Quit"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0243",
+        "name": "Tracy Hughes-Wolf",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0125",
+        "name": "Ami Cusack",
+        "jury": false,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0127",
+        "name": "Eliza Orlins",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0201",
+        "name": "Oscar \"Ozzy\" Lusth",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0244",
+        "name": "Jason Siska",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0231",
+        "name": "James Clement",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "MedEvac"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0245",
+        "name": "Alexis Jones",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0246",
+        "name": "Erik Reichenbach",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0179",
+        "name": "Cirie Fields",
+        "jury": true,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0235",
+        "name": "Amanda Kimmel",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0197",
+        "name": "Parvati Shallow",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -4701,6 +7722,206 @@
         "seasons": 1,
         "avg_days": 39
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0248",
+        "name": "Michelle Chase",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0249",
+        "name": "Gillian Larson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0250",
+        "name": "Paloma Soto-Castillo",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0251",
+        "name": "Jacquie Berg",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0252",
+        "name": "Danny \"GC\" Brown",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0253",
+        "name": "Kelly Czarnecki",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0254",
+        "name": "Ace Gordon",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0255",
+        "name": "Dan Kay",
+        "jury": false,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0256",
+        "name": "Marcus Lehman",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0257",
+        "name": "Charlie Herschel",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0258",
+        "name": "Randy Bailey",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0259",
+        "name": "Corinne Kaplan",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0260",
+        "name": "Crystal Cox",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0261",
+        "name": "Ken Hoang",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0262",
+        "name": "Matty Whitmore",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0263",
+        "name": "Jessica \"Sugar\" Kiper",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0264",
+        "name": "Susie Smith",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0265",
+        "name": "Robert \"Bob\" Crowley",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -4980,6 +8201,184 @@
         "szn_days": 39,
         "seasons": 3,
         "avg_days": 26.33
+      }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0266",
+        "name": "Carolina Eastwood",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0267",
+        "name": "Candace Smith",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0268",
+        "name": "Jerry Sims",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0269",
+        "name": "Sandy Burgin",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0270",
+        "name": "Spencer Duhm",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0271",
+        "name": "Sydney Wheeler",
+        "jury": false,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0272",
+        "name": "Joe Dowdle",
+        "jury": false,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "MedEvac"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0273",
+        "name": "Brendan Synnott",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0274",
+        "name": "Tyson Apostol",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0275",
+        "name": "Sierra Reed",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0276",
+        "name": "Debra \"Debbie\" Beebe",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0277",
+        "name": "Benjamin \"Coach\" Wade",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0278",
+        "name": "Tamara \"Taj\" Johnson-George",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0279",
+        "name": "Erinn Lobdell",
+        "jury": true,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0280",
+        "name": "Stephen Fishbach",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0281",
+        "name": "James \"J.T.\" Thomas Jr.",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
       }
     ]
   },
@@ -5340,6 +8739,228 @@
         "szn_days": 39,
         "seasons": 1,
         "avg_days": 39
+      }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0282",
+        "name": "Marisa Calihan",
+        "jury": false,
+        "placement": [
+          {
+            "place": 20,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0283",
+        "name": "Mike Borassi",
+        "jury": false,
+        "placement": [
+          {
+            "place": 19,
+            "elimination": "MedEvac"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0284",
+        "name": "Betsy Bolan",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0285",
+        "name": "Ben Browning",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0286",
+        "name": "Yasmin Giles",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0287",
+        "name": "Ashley Trainer",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0288",
+        "name": "Russell Swan",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "MedEvac"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0289",
+        "name": "Elizabeth \"Liz\" Kim",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0290",
+        "name": "Erik Cardona",
+        "jury": true,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0291",
+        "name": "Kelly Sharbaugh",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0292",
+        "name": "Laura Morett",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0293",
+        "name": "John Fincher",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0294",
+        "name": "Dave Ball",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0295",
+        "name": "Monica Padilla",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0296",
+        "name": "Shannon \"Shambo\" Waters",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0297",
+        "name": "Jaison Robinson",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0298",
+        "name": "Brett Clouser",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0299",
+        "name": "Mick Trimming",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0300",
+        "name": "Russell Hantz",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0301",
+        "name": "Natalie White",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
       }
     ]
   },
@@ -5809,6 +9430,228 @@
         "seasons": 3,
         "avg_days": 28.67
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0263",
+        "name": "Jessica \"Sugar\" Kiper",
+        "jury": false,
+        "placement": [
+          {
+            "place": 20,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0144",
+        "name": "Stephenie LaGrossa",
+        "jury": false,
+        "placement": [
+          {
+            "place": 19,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0258",
+        "name": "Randy Bailey",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0179",
+        "name": "Cirie Fields",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0150",
+        "name": "Tom Westman",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0274",
+        "name": "Tyson Apostol",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0231",
+        "name": "James Clement",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0055",
+        "name": "Rob \"Boston Rob\" Mariano",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0277",
+        "name": "Benjamin \"Coach\" Wade",
+        "jury": true,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0236",
+        "name": "Courtney Yates",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0281",
+        "name": "James \"J.T.\" Thomas Jr.",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0235",
+        "name": "Amanda Kimmel",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0195",
+        "name": "Candice Cody",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0181",
+        "name": "Danielle DiLorenzo",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0107",
+        "name": "Rupert Boneham",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0031",
+        "name": "Colby Donaldson",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0025",
+        "name": "Jerri Manthey",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0300",
+        "name": "Russell Hantz",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0197",
+        "name": "Parvati Shallow",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0112",
+        "name": "Sandra Diaz-Twine",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -6189,6 +10032,228 @@
         "seasons": 1,
         "avg_days": 39
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0302",
+        "name": "Wendy-Jo DeSmidt-Kohlhoff",
+        "jury": false,
+        "placement": [
+          {
+            "place": 20,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0303",
+        "name": "Shannon Elkins",
+        "jury": false,
+        "placement": [
+          {
+            "place": 19,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0304",
+        "name": "Jimmy Johnson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0305",
+        "name": "James \"Jimmy T.\" Tarantino",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0306",
+        "name": "Tyrone Davis",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0307",
+        "name": "Kelly Bruno",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0308",
+        "name": "Yve Rojas",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0309",
+        "name": "Jill Behm",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0310",
+        "name": "Alina Wilson",
+        "jury": true,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0311",
+        "name": "Marty Piombo",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0312",
+        "name": "Brenda Lowe",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0313",
+        "name": "NaOnka Mixon",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Quit"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0314",
+        "name": "Kelly \"Purple Kelly\" Shinn",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Quit"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0315",
+        "name": "Ben \"Benry\" Henry",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0316",
+        "name": "Jane Bright",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0317",
+        "name": "Dan Lembo",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0318",
+        "name": "Holly Hoffman",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0319",
+        "name": "Matthew \"Sash\" Lenahan",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0320",
+        "name": "Chase Rice",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0321",
+        "name": "Jud \"Fabio\" Birza",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -6543,6 +10608,214 @@
         "seasons": 2,
         "avg_days": 33.5
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0322",
+        "name": "Francesca Hogi",
+        "jury": false,
+        "placement": [
+          {
+            "place": 20,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0323",
+        "name": "Matt Elrod",
+        "jury": true,
+        "placement": [
+          {
+            "place": 19,
+            "elimination": "Voted Out but Returned"
+          },
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0300",
+        "name": "Russell Hantz",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0324",
+        "name": "Kristina Kell",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0325",
+        "name": "Krista Klumpp",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0326",
+        "name": "Stephanie Valencia",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0327",
+        "name": "Sarita White",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0328",
+        "name": "Mike Chiesl",
+        "jury": true,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0329",
+        "name": "David Murphy",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0330",
+        "name": "Julie Wolfe",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0331",
+        "name": "Ralph Kiser",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0332",
+        "name": "Steve Wright",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0333",
+        "name": "Andrea Boehlke",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out but Returned"
+          },
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0334",
+        "name": "Grant Mattos",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0335",
+        "name": "Ashley Underwood",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0336",
+        "name": "Natalie Tenerelli",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0337",
+        "name": "Phillip Sheppard",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0055",
+        "name": "Rob \"Boston Rob\" Mariano",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -6872,6 +11145,214 @@
         "szn_days": 39,
         "seasons": 2,
         "avg_days": 33.5
+      }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0338",
+        "name": "Semhar Tadesse",
+        "jury": false,
+        "placement": [
+          {
+            "place": 20,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0339",
+        "name": "Christine Shields Markoski",
+        "jury": false,
+        "placement": [
+          {
+            "place": 19,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0340",
+        "name": "Mark \"Papa Bear\" Caruso",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0341",
+        "name": "Stacey Powell",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0342",
+        "name": "Elyse Umemoto",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0343",
+        "name": "Mikayla Wingle",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0201",
+        "name": "Oscar \"Ozzy\" Lusth",
+        "jury": true,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out but Returned"
+          },
+          {
+            "place": 12,
+            "elimination": "Voted Out but Returned"
+          },
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0344",
+        "name": "Keith Tollefson",
+        "jury": true,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0345",
+        "name": "Jim Rice",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0346",
+        "name": "Dawn Meehan",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0347",
+        "name": "Whitney Duncan",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0348",
+        "name": "John Cochran",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0349",
+        "name": "Edna Ma",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0350",
+        "name": "Brandon Hantz",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0351",
+        "name": "Rick Nelson",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0352",
+        "name": "Albert Destrade",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0277",
+        "name": "Benjamin \"Coach\" Wade",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0353",
+        "name": "Sophie Clarke",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
       }
     ]
   },
@@ -7223,6 +11704,206 @@
         "seasons": 2,
         "avg_days": 34
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0354",
+        "name": "Kourtney Moon",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "MedEvac"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0355",
+        "name": "Nina Acosta",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0356",
+        "name": "Matt Quinlan",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0357",
+        "name": "Bill Posley",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0358",
+        "name": "Monica Culpepper",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0359",
+        "name": "Colton Cumbie",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "MedEvac"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0360",
+        "name": "Jonas Otsuji",
+        "jury": true,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0361",
+        "name": "Michael Jefferson",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0362",
+        "name": "Jay Byars",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0363",
+        "name": "Leif Manson",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0364",
+        "name": "Troy \"Troyzan\" Robertson",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0365",
+        "name": "Kat Edorsson",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0366",
+        "name": "Greg \"Tarzan\" Smith",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0367",
+        "name": "Alicia Rosa",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0368",
+        "name": "Christina Cha",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0369",
+        "name": "Chelsea Meissner",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0370",
+        "name": "Sabrina Thompson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0371",
+        "name": "Kim Spradlin-Wolfe",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -7554,6 +12235,195 @@
         "szn_days": 39,
         "seasons": 2,
         "avg_days": 37.5
+      }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0372",
+        "name": "Zane Knight",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0373",
+        "name": "Roxanne \"Roxy\" Morris",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0374",
+        "name": "Angie Layton",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0288",
+        "name": "Russell Swan",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0375",
+        "name": "Dana Lambert",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Quit"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0376",
+        "name": "Sarah Dawson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0377",
+        "name": "Katie Hanson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0378",
+        "name": "Roberta \"RC\" Saint-Amour",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0379",
+        "name": "Jeff Kent",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0380",
+        "name": "Artis Silvester",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0381",
+        "name": "Peter Yurkowski",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0196",
+        "name": "Jonathan Penner",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0382",
+        "name": "Carter Williams",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0383",
+        "name": "Abi-Maria Gomes",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0385",
+        "name": "Lisa Whelchel",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0022",
+        "name": "Michael Skupin",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0386",
+        "name": "Denise Stapley",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
       }
     ]
   },
@@ -7999,6 +12869,228 @@
         "seasons": 1,
         "avg_days": 39
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0322",
+        "name": "Francesca Hogi",
+        "jury": false,
+        "placement": [
+          {
+            "place": 20,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0387",
+        "name": "Alexandra \"Allie\" Pohevitz",
+        "jury": false,
+        "placement": [
+          {
+            "place": 19,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0388",
+        "name": "Hope Driskill",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0389",
+        "name": "Shamar Thomas",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "MedEvac"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0390",
+        "name": "Laura Alexander",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0350",
+        "name": "Brandon Hantz",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0391",
+        "name": "Matt Bischoff",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0392",
+        "name": "Julia Landauer",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0259",
+        "name": "Corinne Kaplan",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0393",
+        "name": "Michael Snow",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0337",
+        "name": "Phillip Sheppard",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0384",
+        "name": "Malcolm Freberg",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0394",
+        "name": "Reynold Toepfer",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0333",
+        "name": "Andrea Boehlke",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0312",
+        "name": "Brenda Lowe",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0246",
+        "name": "Erik Reichenbach",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "MedEvac"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0395",
+        "name": "Edward \"Eddie\" Fox",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0396",
+        "name": "Sherri Biethman",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0346",
+        "name": "Dawn Meehan",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0348",
+        "name": "John Cochran",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -8359,6 +13451,229 @@
         "seasons": 3,
         "avg_days": 22
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0397",
+        "name": "Laura Boneham",
+        "jury": true,
+        "placement": [
+          {
+            "place": 23,
+            "elimination": "Voted Out but Switched"
+          },
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0195",
+        "name": "Candice Cody",
+        "jury": false,
+        "placement": [
+          {
+            "place": 22,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0107",
+        "name": "Rupert Boneham",
+        "jury": false,
+        "placement": [
+          {
+            "place": 21,
+            "elimination": "Switched"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0398",
+        "name": "Marissa Peterson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 20,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0399",
+        "name": "Rachel Foulger",
+        "jury": false,
+        "placement": [
+          {
+            "place": 19,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0359",
+        "name": "Colton Cumbie",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Quit"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0400",
+        "name": "John Cody",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0401",
+        "name": "Brad Culpepper",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0292",
+        "name": "Laura Morett",
+        "jury": true,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out but Returned"
+          },
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0365",
+        "name": "Kat Edorsson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0182",
+        "name": "Aras Baskauskas",
+        "jury": true,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0402",
+        "name": "Vytas Baskauskas",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0032",
+        "name": "Tina Wesson",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out but Returned"
+          },
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0403",
+        "name": "Caleb Bankston",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0405",
+        "name": "Hayden Moss",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0406",
+        "name": "Ciera Eastin",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0010",
+        "name": "Gervase Peterson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0358",
+        "name": "Monica Culpepper",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0274",
+        "name": "Tyson Apostol",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -8712,6 +14027,195 @@
         "szn_days": 39,
         "seasons": 3,
         "avg_days": 28
+      }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0407",
+        "name": "David Samson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0408",
+        "name": "Garrett Adelstein",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0409",
+        "name": "Brice Johnston",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0410",
+        "name": "J'Tia Taylor",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0411",
+        "name": "Cliff Robinson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0412",
+        "name": "Lindsey Ogle",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Quit"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0413",
+        "name": "Alexis Maxwell",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0414",
+        "name": "Sarah Lacina",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0415",
+        "name": "Morgan McLeod",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0416",
+        "name": "LJ McKanas",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0417",
+        "name": "Jeremiah Wood",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0418",
+        "name": "Jefra Bland",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0419",
+        "name": "Latasha \"Tasha\" Fox",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0420",
+        "name": "Trish Hegarty",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0422",
+        "name": "Kassandra McQuillen",
+        "jury": true,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0423",
+        "name": "Yung \"Woo\" Hwang",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0424",
+        "name": "Tony Vlachos",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
       }
     ]
   },
@@ -9087,6 +14591,195 @@
         "seasons": 2,
         "avg_days": 39
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0425",
+        "name": "Nadiya Anderson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0426",
+        "name": "Val Collins",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0427",
+        "name": "John Rocker",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0428",
+        "name": "Drew Christy",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0429",
+        "name": "Kelley Wentworth",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0430",
+        "name": "Dale Wentworth",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0431",
+        "name": "Julie McGee",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Quit"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0432",
+        "name": "Josh Canfield",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0433",
+        "name": "Jeremy Collins",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0434",
+        "name": "Wes Nale",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0435",
+        "name": "Reed Kelly",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0436",
+        "name": "Alec Christy",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0437",
+        "name": "Jon Misch",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0438",
+        "name": "Baylor Wilson",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0440",
+        "name": "Missy Payne",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0441",
+        "name": "Jaclyn Schultz",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0442",
+        "name": "Natalie Anderson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -9420,6 +15113,206 @@
         "szn_days": 39,
         "seasons": 1,
         "avg_days": 39
+      }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0443",
+        "name": "So Kim",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0444",
+        "name": "Vince Sly",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0445",
+        "name": "Nina Poersch",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0446",
+        "name": "Lindsey Cascaddan",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0447",
+        "name": "Max Dawson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0448",
+        "name": "Joaquin Souberbielle",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0449",
+        "name": "Kelly Remington",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0450",
+        "name": "Hali Ford",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0451",
+        "name": "Joe Anglim",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0452",
+        "name": "Jenn Brown",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0453",
+        "name": "Shirin Oskooi",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0454",
+        "name": "Tyler Fredrickson",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0455",
+        "name": "Dan Foley",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0456",
+        "name": "Sierra Dawn Thomas",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0457",
+        "name": "Rodney Lavoie Jr.",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0458",
+        "name": "Will Sims II",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0459",
+        "name": "Carolyn Rivera",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0460",
+        "name": "Mike Holloway",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
       }
     ]
   },
@@ -9825,6 +15718,228 @@
         "seasons": 2,
         "avg_days": 17.5
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0402",
+        "name": "Vytas Baskauskas",
+        "jury": false,
+        "placement": [
+          {
+            "place": 20,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0453",
+        "name": "Shirin Oskooi",
+        "jury": false,
+        "placement": [
+          {
+            "place": 19,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0233",
+        "name": "Peih-Gee Law",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0023",
+        "name": "Jeff Varner",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0295",
+        "name": "Monica Padilla",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0180",
+        "name": "Terry Deitz",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Family Emergency"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0423",
+        "name": "Yung \"Woo\" Hwang",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0422",
+        "name": "Kassandra McQuillen",
+        "jury": true,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0105",
+        "name": "Andrew Savage",
+        "jury": true,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0015",
+        "name": "Kelly Wiglesworth",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0406",
+        "name": "Ciera Eastin",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0280",
+        "name": "Stephen Fishbach",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0451",
+        "name": "Joe Anglim",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0383",
+        "name": "Abi-Maria Gomes",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0021",
+        "name": "Kimmi Kappenberg",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0439",
+        "name": "Keith Nale",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0429",
+        "name": "Kelley Wentworth",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0421",
+        "name": "Spencer Bledsoe",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0419",
+        "name": "Latasha \"Tasha\" Fox",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0433",
+        "name": "Jeremy Collins",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -10172,6 +16287,206 @@
         "szn_days": 39,
         "seasons": 2,
         "avg_days": 39
+      }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0461",
+        "name": "Darnell Hamilton",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0462",
+        "name": "Jennifer Lanzetti",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0463",
+        "name": "Elisabeth \"Liz\" Markham",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0464",
+        "name": "Caleb Reynolds",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "MedEvac"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0465",
+        "name": "Alecia Holden",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0466",
+        "name": "Anna Khait",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0467",
+        "name": "Peter Baggenstos",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0468",
+        "name": "Neal Gottlieb",
+        "jury": false,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "MedEvac"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0469",
+        "name": "Nick Maiorano",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0470",
+        "name": "Debbie Wanner",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0471",
+        "name": "Scot Pollard",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0472",
+        "name": "Julia Sokolowski",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0473",
+        "name": "Kyle Jason",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0474",
+        "name": "Joseph \"Joe\" Del Campo",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "MedEvac"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0475",
+        "name": "Cydney Gillon",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0476",
+        "name": "Tai Trang",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0477",
+        "name": "Aubry Bracco",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0478",
+        "name": "Michele Fitzgerald",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
       }
     ]
   },
@@ -10641,6 +16956,217 @@
         "seasons": 2,
         "avg_days": 31
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0479",
+        "name": "Rachel Ako",
+        "jury": false,
+        "placement": [
+          {
+            "place": 20,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0480",
+        "name": "Mari Takahashi",
+        "jury": false,
+        "placement": [
+          {
+            "place": 19,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0481",
+        "name": "Paul Wachter",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0482",
+        "name": "Lucy Huang",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0483",
+        "name": "Ciandre \"CeCe\" Taylor",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0484",
+        "name": "Jessica \"Figgy\" Figueroa",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0485",
+        "name": "Michaela Bradshaw",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0486",
+        "name": "Michelle Schubert",
+        "jury": true,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0487",
+        "name": "Taylor Lee Stocker",
+        "jury": true,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0488",
+        "name": "Chris Hammons",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0490",
+        "name": "Zeke Smith",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0491",
+        "name": "Will Wahl",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0492",
+        "name": "Sunday Burquest",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0493",
+        "name": "Justin \"Jay\" Starrett",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0494",
+        "name": "Bret LaBelle",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0495",
+        "name": "David Wright",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0496",
+        "name": "Hannah Shapiro",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0497",
+        "name": "Ken McNickle",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0498",
+        "name": "Adam Klein",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -11107,6 +17633,217 @@
         "seasons": 2,
         "avg_days": 31
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0406",
+        "name": "Ciera Eastin",
+        "jury": false,
+        "placement": [
+          {
+            "place": 20,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0424",
+        "name": "Tony Vlachos",
+        "jury": false,
+        "placement": [
+          {
+            "place": 19,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0464",
+        "name": "Caleb Reynolds",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0384",
+        "name": "Malcolm Freberg",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0281",
+        "name": "James \"J.T.\" Thomas Jr.",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0112",
+        "name": "Sandra Diaz-Twine",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0023",
+        "name": "Jeff Varner",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0450",
+        "name": "Hali Ford",
+        "jury": true,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0201",
+        "name": "Oscar \"Ozzy\" Lusth",
+        "jury": true,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0470",
+        "name": "Debbie Wanner",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0490",
+        "name": "Zeke Smith",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0456",
+        "name": "Sierra Dawn Thomas",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0333",
+        "name": "Andrea Boehlke",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0485",
+        "name": "Michaela Bradshaw",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0477",
+        "name": "Aubry Bracco",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0476",
+        "name": "Tai Trang",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0364",
+        "name": "Troy \"Troyzan\" Robertson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0401",
+        "name": "Brad Culpepper",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0414",
+        "name": "Sarah Lacina",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -11548,6 +18285,206 @@
         "szn_days": 39,
         "seasons": 2,
         "avg_days": 38
+      }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0499",
+        "name": "Katrina Radke",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0500",
+        "name": "Simone Nguyen",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0501",
+        "name": "Patrick Bolton",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0502",
+        "name": "Alan Ball",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0503",
+        "name": "Roark Luskin",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0504",
+        "name": "Alexandrea \"Ali\" Elliott",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0505",
+        "name": "Jessica Johnston",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0506",
+        "name": "Desiree Williams",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0507",
+        "name": "Cole Medders",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0508",
+        "name": "John \"JP\" Hilsabeck",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0509",
+        "name": "Joe Mena",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0510",
+        "name": "Lauren Rimmer",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0511",
+        "name": "Ashley Nolan",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0512",
+        "name": "Mike Zahalsky",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0513",
+        "name": "Devon Pinto",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Final Four Firemaking"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0514",
+        "name": "Ryan Ulrich",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0515",
+        "name": "Chrissy Hofbeck",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0516",
+        "name": "Ben Driebergen",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
       }
     ]
   },
@@ -12035,6 +18972,228 @@
         "seasons": 2,
         "avg_days": 30
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0517",
+        "name": "Stephanie Gonzalez",
+        "jury": false,
+        "placement": [
+          {
+            "place": 20,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0518",
+        "name": "Jacob Derwin",
+        "jury": false,
+        "placement": [
+          {
+            "place": 19,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0519",
+        "name": "Morgan Ricke",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0520",
+        "name": "Brendan Shapiro",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0521",
+        "name": "Stephanie Johnson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0522",
+        "name": "James Lim",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0523",
+        "name": "Bradley Kleihege",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0524",
+        "name": "Chris Noble",
+        "jury": true,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0525",
+        "name": "Libby Vincek",
+        "jury": true,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0526",
+        "name": "Desiree Afuye",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0527",
+        "name": "Jenna Bowman",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0528",
+        "name": "Michael Yerger",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0529",
+        "name": "Chelsea Townsend",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0530",
+        "name": "Kellyn Bechtold",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0531",
+        "name": "Sebastian Noel",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0532",
+        "name": "Donathan Hurley",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0533",
+        "name": "Angela Perkins",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Final Four Firemaking"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0534",
+        "name": "Laurel Johnson",
+        "jury": true,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0535",
+        "name": "Domenick Abbate",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0536",
+        "name": "Wendell Holland",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -12484,6 +19643,228 @@
         "szn_days": 39,
         "seasons": 2,
         "avg_days": 36.5
+      }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0537",
+        "name": "Pat Cusack",
+        "jury": false,
+        "placement": [
+          {
+            "place": 20,
+            "elimination": "MedEvac"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0538",
+        "name": "Jessica Peet",
+        "jury": false,
+        "placement": [
+          {
+            "place": 19,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0539",
+        "name": "Jeremy Crawford",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0540",
+        "name": "Bi Nguyen",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Quit"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0541",
+        "name": "Natalia Azoqa",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0542",
+        "name": "Natalie Cole",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0543",
+        "name": "Lyrsa Torres",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0544",
+        "name": "Elizabeth Olson",
+        "jury": true,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0545",
+        "name": "John Hennigan",
+        "jury": true,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0546",
+        "name": "Dan Rengering",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0547",
+        "name": "Alec Merlino",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0548",
+        "name": "Carl Boudreaux",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0549",
+        "name": "Gabby Pascuzzi",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0550",
+        "name": "Christian Hubicki",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0551",
+        "name": "Davie Rickenbacker",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0552",
+        "name": "Alison Raybould",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0553",
+        "name": "Kara Kay",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Final Four Firemaking"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0554",
+        "name": "Angelina Keeley",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0555",
+        "name": "Mike White",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0556",
+        "name": "Nick Wilson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
       }
     ]
   },
@@ -12944,6 +20325,214 @@
         "szn_days": 39,
         "seasons": 1,
         "avg_days": 39
+      }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0557",
+        "name": "Reem Daly",
+        "jury": true,
+        "placement": [
+          {
+            "place": 20,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0558",
+        "name": "Keith Sowell",
+        "jury": false,
+        "placement": [
+          {
+            "place": 19,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0559",
+        "name": "Chris Underwood",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out but Returned"
+          },
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0560",
+        "name": "Rick Devens",
+        "jury": true,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out but Returned"
+          },
+          {
+            "place": 4,
+            "elimination": "Final Four Firemaking"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0477",
+        "name": "Aubry Bracco",
+        "jury": true,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0561",
+        "name": "Wendy Diaz",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0451",
+        "name": "Joe Anglim",
+        "jury": true,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0562",
+        "name": "Eric Hafemann",
+        "jury": true,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0563",
+        "name": "Julia Carter",
+        "jury": true,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0495",
+        "name": "David Wright",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0429",
+        "name": "Kelley Wentworth",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0564",
+        "name": "Dan \"Wardog\" DaSilva",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0565",
+        "name": "Ron Clark",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0566",
+        "name": "Aurora McCreary",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0567",
+        "name": "Victoria Baamonde",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0568",
+        "name": "Lauren O'Connell",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0569",
+        "name": "Julie Rosenberg",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0570",
+        "name": "Gavin Whitson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
       }
     ]
   },
@@ -13475,6 +21064,228 @@
         "seasons": 1,
         "avg_days": 39
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0571",
+        "name": "Ronnie Bardah",
+        "jury": false,
+        "placement": [
+          {
+            "place": 20,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0572",
+        "name": "Molly Byman",
+        "jury": false,
+        "placement": [
+          {
+            "place": 19,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0573",
+        "name": "Vince Moua",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0574",
+        "name": "Chelsea Walker",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0575",
+        "name": "Tom Laidlaw",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0576",
+        "name": "Jason Linden",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0577",
+        "name": "Jack Nichting",
+        "jury": true,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0578",
+        "name": "Kellee Kim",
+        "jury": true,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0579",
+        "name": "Jamal Shipman",
+        "jury": true,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0580",
+        "name": "Aaron Meredith",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0581",
+        "name": "Missy Byrd",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0582",
+        "name": "Elizabeth Beisel",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0583",
+        "name": "Karishma Patel",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0584",
+        "name": "Elaine Stott",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0585",
+        "name": "Dan Spilo",
+        "jury": false,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Ejected"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0586",
+        "name": "Janet Carbin",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0587",
+        "name": "Lauren Beck",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Final Four Firemaking"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0588",
+        "name": "Noura Salman",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0589",
+        "name": "Dean Kowalski",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0590",
+        "name": "Tommy Sheehan",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -13987,6 +21798,236 @@
         "seasons": 2,
         "avg_days": 36.5
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0442",
+        "name": "Natalie Anderson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 22,
+            "elimination": "Voted Out but Returned"
+          },
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0027",
+        "name": "Amber Mariano",
+        "jury": true,
+        "placement": [
+          {
+            "place": 21,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0166",
+        "name": "Danni Boatwright",
+        "jury": true,
+        "placement": [
+          {
+            "place": 20,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0048",
+        "name": "Ethan Zohn",
+        "jury": true,
+        "placement": [
+          {
+            "place": 19,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0274",
+        "name": "Tyson Apostol",
+        "jury": true,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out but Returned"
+          },
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0055",
+        "name": "Rob \"Boston Rob\" Mariano",
+        "jury": true,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0197",
+        "name": "Parvati Shallow",
+        "jury": true,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0112",
+        "name": "Sandra Diaz-Twine",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0202",
+        "name": "Yul Kwon",
+        "jury": true,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0536",
+        "name": "Wendell Holland",
+        "jury": true,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0498",
+        "name": "Adam Klein",
+        "jury": true,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0353",
+        "name": "Sophie Clarke",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0371",
+        "name": "Kim Spradlin-Wolfe",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0433",
+        "name": "Jeremy Collins",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0556",
+        "name": "Nick Wilson",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0386",
+        "name": "Denise Stapley",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0516",
+        "name": "Ben Driebergen",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0414",
+        "name": "Sarah Lacina",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Final Four Firemaking"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0478",
+        "name": "Michele Fitzgerald",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0424",
+        "name": "Tony Vlachos",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -14337,6 +22378,206 @@
         "seasons": 1,
         "avg_days": 21
       }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0591",
+        "name": "Eric Abraham",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0592",
+        "name": "Sara Wilson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0607",
+        "name": "David Voce",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0602",
+        "name": "Brad Reese",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0603",
+        "name": "Jairus \"JD\" Robinson",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0595",
+        "name": "Genie Chen",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0605",
+        "name": "Sydney Segal",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0604",
+        "name": "Tiffany Seely",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0600",
+        "name": "Naseer Muttalif",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0598",
+        "name": "Evvie Jagoda",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0606",
+        "name": "Shantel Smith",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0608",
+        "name": "Liana Wallace",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0599",
+        "name": "Danny McCray",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0596",
+        "name": "Ricard Foye",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0593",
+        "name": "Heather Aldret",
+        "jury": true,
+        "placement": [
+          {
+            "place": 4,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0597",
+        "name": "Xander Hastings",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0601",
+        "name": "Deshawn Radden",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0594",
+        "name": "Erika Casupanan",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
+      }
     ]
   },
   {
@@ -14670,6 +22911,195 @@
         "szn_days": 3,
         "seasons": 1,
         "avg_days": 3
+      }
+    ],
+    "bootMapping": [
+      {
+        "castaway_id": "US0613",
+        "name": "Jackson Fox",
+        "jury": false,
+        "placement": [
+          {
+            "place": 18,
+            "elimination": "MedEvac"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0626",
+        "name": "Zach Wurthenberger",
+        "jury": false,
+        "placement": [
+          {
+            "place": 17,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0618",
+        "name": "Marya Sherron",
+        "jury": false,
+        "placement": [
+          {
+            "place": 16,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0614",
+        "name": "Jenny Kim",
+        "jury": false,
+        "placement": [
+          {
+            "place": 15,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0624",
+        "name": "Swati Goel",
+        "jury": false,
+        "placement": [
+          {
+            "place": 14,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0610",
+        "name": "Daniel Strunk",
+        "jury": false,
+        "placement": [
+          {
+            "place": 13,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0617",
+        "name": "Lydia Meredith",
+        "jury": false,
+        "placement": [
+          {
+            "place": 12,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0609",
+        "name": "Chanelle Howell",
+        "jury": true,
+        "placement": [
+          {
+            "place": 11,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0622",
+        "name": "Rocksroy Bailey",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0625",
+        "name": "Tori Meehan",
+        "jury": true,
+        "placement": [
+          {
+            "place": 9,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0612",
+        "name": "Hai Giang",
+        "jury": true,
+        "placement": [
+          {
+            "place": 8,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0611",
+        "name": "Drea Wheeler",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0621",
+        "name": "Omar Zaheer",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0616",
+        "name": "Lindsay Dolashewich",
+        "jury": true,
+        "placement": [
+          {
+            "place": 5,
+            "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0623",
+        "name": "Romeo Escobar",
+        "jury": false,
+        "placement": [
+          {
+            "place": 3,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0620",
+        "name": "Mike Turner",
+        "jury": false,
+        "placement": [
+          {
+            "place": 2,
+            "elimination": "Runner-up"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0619",
+        "name": "Maryanne Oketch",
+        "jury": false,
+        "placement": [
+          {
+            "place": 1,
+            "elimination": "Winner"
+          }
+        ]
       }
     ]
   }

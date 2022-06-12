@@ -1,0 +1,237 @@
+---
+title: "Cleaning Survivor Data"
+author: "Jaren Brownlee"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document:  
+    keep_md: true
+    toc: true
+    toc_float: true
+    code_folding: hide
+    fig_height: 6
+    fig_width: 12
+    fig_align: 'center'
+---
+
+```{r, echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+```{r load_libraries, include=FALSE}
+# Use this R-Chunk to load all your libraries!
+#install.packages("tidyverse") # run this line once in console to get package
+library(tidyverse)
+library(survivoR)
+library(jsonlite)
+library(reshape2)
+```
+
+## Data Wrangling
+
+### Castaway Details (demographics)
+```{r cast}
+# Use this R-Chunk to clean & wrangle your data!
+tidyDetes <- castaway_details %>% 
+  mutate(race = case_when(
+    race == "Black" ~ "Black", poc == "White" ~ "White",
+    race == "Asian" ~ "Asian", str_detect(ethnicity,"Asian") ~ "Asian",
+    str_detect(ethnicity,"Hispanic") ~ "Latino", TRUE ~ "Mixed"
+  ), gender = case_when(
+    gender == "Non-binary" ~ "Female", TRUE ~ gender
+  ), deceased = case_when(
+    is.na(date_of_death) ~ FALSE, TRUE ~ TRUE)) %>%
+  separate(full_name, into = c('first','last'), 
+    sep = " ", extra = "merge", remove = FALSE) %>%
+  mutate(name = case_when(
+    str_detect(full_name,short_name) ~ str_c(first, ' ', last),
+    TRUE ~ str_c(first, ' "', short_name, '" ', last)))
+
+tidyCast <- castaways %>% filter(version == 'US') %>%
+  select('version_season','season_name','castaway_id',
+         'full_name','age','state','day','episode') %>%
+  mutate(season_name = case_when(
+    grepl("\\d", season_name) ~ season_name,
+    TRUE ~ str_remove(season_name, 'Survivor: '))) %>% 
+  group_by(version_season,castaway_id) %>%
+  mutate(day = max(day),episode = max(episode)) %>% ungroup() %>% unique() %>%
+  merge(tidyDetes, by = "castaway_id") %>%
+  select('castaway_id','version_season','season_name','name',
+         'age','gender','race','deceased','state','day','episode') %>%
+  group_by(castaway_id) %>% mutate(
+    seasons = n(), total_days = sum(day), szn_days = day,
+    avg_days = round(total_days/seasons,2)) %>% select(-c('day'))
+  
+castJSON <- tidyCast %>%
+  mutate(version_season = str_replace(version_season, "US", "")) %>%
+  group_by(version_season, season_name) %>%
+  nest(data = c('castaway_id','name','age','gender','race','deceased','episode',
+                'state','total_days','szn_days','seasons','avg_days')) %>%
+  arrange(version_season) %>% rename(castData = data)
+
+castJSON %>% toJSON(pretty = TRUE) %>%
+  write("cit380/project2/data/cast.json")
+```
+
+### Idol Data
+``` {r adv}
+adv <- advantage_details %>% 
+  filter(str_detect(advantage_type, "idol"),
+         !str_detect(advantage_id, 'b')) %>%
+  merge(advantage_movement, by=c("advantage_id","version_season")) %>%
+  mutate(votes_nullified = case_when(
+    (event == "Played" & is.na(votes_nullified)) ~ 12345,
+    TRUE ~ votes_nullified
+  )) %>%
+  mutate(event = case_when(
+      event == "Voted out with advantage" ~ "Flushed",
+      event == "Found" | event == "Activated" ~ case_when(
+        str_detect(clue_details, "without|No clue") ~ "NoClue", 
+        TRUE ~ "Clue"),
+      event == "Played" ~ case_when(
+        success == "Yes" ~ "Success",
+        str_detect(success, "No") ~ "NoSuccess"), 
+      TRUE ~ "x")) %>%
+  filter(event != "x") %>%
+  select('castaway_id', 'event', 'votes_nullified', 'advantage_id')
+
+votesNull <- adv %>% filter(str_detect(event,"Success")) %>%
+  mutate(version_season = str_c("US",substr(advantage_id,5,6))) %>%
+  select('version_season','castaway_id','votes_nullified') %>%
+  mutate(votes_nullified = replace_na(votes_nullified, 0)) %>%
+  group_by(castaway_id) %>% 
+  mutate(votesNullifiedCareer = sum(votes_nullified)) %>% ungroup() %>%
+  group_by(version_season) %>%
+  mutate(votesNullifiedSeason = sum(votes_nullified))
+
+szn <- tidyCast %>% select('version_season', 'season_name', 'name')
+
+idolStats <- adv %>% select(-('votes_nullified')) %>% 
+  unique() %>% pivot_wider(id_cols = advantage_id, 
+    names_from = event, values_from = castaway_id) %>% left_join(
+    (advantage_movement %>% select('advantage_id', 'played_for_id')), 
+    by = "advantage_id") %>%
+  filter(!((!is.na(Success)|!is.na(NoSuccess)) & is.na(played_for_id))) %>% 
+  unique() %>% pivot_longer(!advantage_id, names_to = "event", 
+                            values_to = "castaway_id", values_drop_na = TRUE) %>%
+  mutate(version_season = str_c("US",substr(advantage_id, 5, 6))) %>%
+  group_by(castaway_id, version_season) %>% summarise(
+    idolsFound_Clue = sum(event == "Clue"),
+    idolsFoundNoClue = sum(event == "NoClue"),
+    idolsFoundTotal = sum(idolsFound_Clue, idolsFoundNoClue),
+    idolsPlayedFor = sum(event == "played_for_id"),
+    idolSuccesses = sum(event == "Success"),
+    idolFailures = sum(event == "NoSuccess"),
+    idolsPlayedBy = sum(idolSuccesses, idolFailures),
+    idolsWasted = sum(event == "Flushed"),
+  ) %>% ungroup() %>%
+  group_by(castaway_id) %>%
+  mutate(idolsFound_ClueCareer = sum(idolsFound_Clue),
+         idolsFoundNoClueCareer = sum(idolsFoundNoClue),
+         idolsFoundTotalCareer = sum(idolsFoundTotal),
+         idolsPlayedByCareer = sum(idolsPlayedBy),
+         idolSuccessesCareer = sum(idolSuccesses),
+         idolFailuresCareer = sum(idolFailures),
+         idolsPlayedForCareer = sum(idolsPlayedFor),
+         idolsWastedCareer = sum(idolsWasted)) %>% 
+  ungroup() %>% group_by(version_season) %>%
+  mutate(idolsFound_ClueSeason = sum(idolsFound_Clue),
+         idolsFoundNoClueSeason = sum(idolsFoundNoClue),
+         idolsFoundTotalSeason = sum(idolsFoundTotal),
+         idolSuccessesSeason = sum(idolSuccesses),
+         idolFailuresSeason = sum(idolFailures),
+         idolsPlayedSeason = sum(idolsPlayedBy),
+         idolsWastedSeason = sum(idolsWasted)) %>%
+  left_join(votesNull, by = c('castaway_id', 'version_season')) %>% unique() %>%
+  left_join(szn, by = c('version_season', 'castaway_id'))
+
+sznCols <- c(
+  'idolsFound_ClueSeason', 'idolsFoundNoClueSeason', 'idolsFoundTotalSeason', 
+  'idolSuccessesSeason', 'idolFailuresSeason', 'idolsPlayedSeason', 
+  'idolsWastedSeason', 'votesNullifiedSeason')
+
+sznIdol <- idolStats %>% select('version_season', 'season_name', 
+                      all_of(sznCols)) %>% group_by(version_season) %>%
+  mutate(votesNullifiedSeason = mean(votesNullifiedSeason, na.rm=TRUE),
+         votesNullifiedSeason = replace_na(votesNullifiedSeason, 0)) %>%
+  ungroup() %>% unique()
+
+elseIdol <- idolStats %>% select(-c(all_of(sznCols)))
+
+idolJSON <- sznIdol %>% 
+  merge(elseIdol, by=c('version_season', 'season_name')) %>%
+  mutate(version_season = str_replace(version_season, "US", "")) %>%
+  group_by(version_season, season_name, idolsFound_ClueSeason, 
+    idolsFoundNoClueSeason, idolsFoundTotalSeason, idolSuccessesSeason, 
+    idolFailuresSeason, idolsPlayedSeason, idolsWastedSeason, 
+    votesNullifiedSeason) %>% nest() %>% 
+  arrange(version_season) %>% rename(idolData = data)
+
+idolJSON %>% toJSON(pretty = TRUE) %>%
+  write("cit380/project2/data/idols.json")
+```
+
+### Boot Mapping Details
+``` {r boot}
+castNames <- tidyCast %>% select('castaway_id', 'name')
+
+bootReason <- castaways %>% 
+  select('version_season', 'castaway_id', 'result', 'jury_status', 'order')
+
+boot <- vote_history %>% select('version_season',
+                    'castaway_id','voted_out_id') %>%
+  full_join(bootReason, by=c('castaway_id', 'version_season')) %>%
+  rename(boot_order = order) %>%
+  left_join(castNames, by='castaway_id') %>%
+  group_by(version_season) %>%
+  mutate(jury = case_when(is.na(jury_status) ~ FALSE, TRUE ~ TRUE),
+         place = max(boot_order) + 1 - boot_order) %>%
+  filter((!str_detect(result,'voted out'))|(voted_out_id == castaway_id)) %>%
+  select(-c('jury_status','voted_out_id','boot_order','result')) %>% 
+  unique() %>% ungroup() %>% group_by(version_season, castaway_id) %>%
+  unique() %>% left_join(bootReason, by=c('version_season','castaway_id')) %>%
+  select(-c('order','jury_status')) %>% 
+  filter(!(str_detect(result,'Sole|unner|Elim') & place > 5),
+         !(str_detect(result,'vote') & place < 3),
+         !(str_detect(result,'4th') & place == 4)) %>%
+  mutate(jury = case_when(n() > 1 & min(place) > 3 ~ TRUE, TRUE ~ jury),
+         result = case_when(
+           place == 23 ~ 'Voted Out but Switched',
+           str_detect(result,'voted') ~ case_when(
+             n() > 1 & place != min(place) ~ 'Voted Out but Returned',
+             TRUE ~ 'Voted Out'),
+           str_detect(result,'unner') ~ 'Runner-up',
+           result == 'Sole Survivor' ~ 'Winner',
+           str_detect(result,'Medical') ~ 'MedEvac',
+           str_detect(result,'Fam') ~ 'Family Emergency',
+           result == 'Eliminated' ~ case_when(
+             castaway_id == 'US0061' ~ 'Final Four Rock Draw',
+             castaway_id == 'US0141' ~ 'Firemaking Tie',
+             castaway_id == 'US0179' ~ 'All Others Immune',
+             place == 4 ~ 'Final Four Firemaking',
+             version_season == 'US10' ~ 'Not Picked',
+             TRUE ~ 'Rock Draw Tie'),
+           TRUE ~ result)) %>%
+  rename(elimination = result) %>% unique()
+
+bootJSON <- boot %>% 
+  group_by(version_season, castaway_id, name, jury) %>%
+  arrange(version_season, desc(place), castaway_id, desc(place)) %>%
+  nest() %>% rename(placement = data) %>% ungroup() %>%
+  group_by(version_season) %>% nest() %>% rename(bootMapping = data) %>%
+  mutate(version_season = str_replace(version_season, "US", ""))
+
+bootJSON %>% toJSON(pretty = TRUE) %>%
+  write("cit380/project2/data/boot.json")
+```
+
+### Full
+``` {r full}
+fullJSON <- idolJSON %>% 
+  full_join(castJSON, by=c('version_season', 'season_name')) %>% 
+  ungroup() %>% arrange(version_season) %>% 
+  mutate_if(is.numeric , replace_na, replace = 0) %>%
+  left_join(bootJSON, by='version_season')
+
+fullJSON %>% toJSON(pretty = TRUE) %>%
+  write("cit380/project2/data/full.json")
+```
