@@ -107,12 +107,15 @@ export function createFactArray(array, szn) {
     }
   }
   function castOut(bootMapping) {
-    if (bootMapping.placement[0].elimination == "Voted Out") {
+    let varElimination = bootMapping.placement[0].elimination;
+    if (varElimination == "Voted Out") {
       return "was voted out in";
-    } else if (bootMapping.placement[0].elimination == "Quit") {
+    } else if (varElimination == "Quit") {
       return "quit during";
+    } else if (varElimination =="Voted Out but Returned"){
+      return "was voted out in";
     } else {
-      return `was the ${bootMapping.placement[0].elimination} in`;
+      return `was the ${varElimination} in`;
     }
   }
   function fixPlaceEnd(bootMapping) {
