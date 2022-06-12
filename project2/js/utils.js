@@ -71,7 +71,7 @@ export function createFactArray(array, szn) {
           Math.floor(Math.random() * array[szn].idolData.length)
         ];
       bootMapping =
-        array[szn].idolData[
+        array[szn].bootMapping[
           Math.floor(Math.random() * array[szn].bootMapping.length)
         ];
     }
