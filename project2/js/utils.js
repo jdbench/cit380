@@ -92,8 +92,6 @@ export function createFactArray(array, szn) {
     `In Season ${season.version_season}, ${season.season_name}, ${bootMapping.name} ${wasVotedByJury(bootMapping)}`,
   ];
 
-  return facts;
-
   function isSurvivorDead(castData) {
     if (castData.deceased == true) {
       return "is no longer living.";
@@ -147,6 +145,8 @@ export function createFactArray(array, szn) {
       return "th";
     }
   }
+
+  return facts;
 }
 
 export function filterSzn() {
