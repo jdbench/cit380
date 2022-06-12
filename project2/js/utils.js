@@ -108,12 +108,13 @@ export function createFactArray(array, szn) {
   }
   function castOut(bootMapping) {
     let varElimination = bootMapping.placement[0].elimination;
-    if (varElimination == "Voted Out" || 
-        varElimination == "Voted Out but Returned") {
+    if (varElimination == "Voted Out") {
       return "was voted out in";
     } else if (varElimination == "Quit") {
       return "quit during";
-    } else {
+    } else if (varElimination == "Voted Out but Returned"){
+      return "was voted out, but returned in"
+    }else {
       return `was the ${varElimination} in`;
     }
   }
