@@ -100,10 +100,13 @@ export function createFactArray(array, szn) {
     }
   }
   function wasVotedByJury(bootMapping) {
+    let varElimination = bootMapping.placement[0].elimination;
     if (bootMapping.jury == true) {
       return "was voted out, but made it to the jury.";
-    } else {
+    } else if (varElimination != "Winner"|varElimination != "Runner-up"){
       return "was voted out, but didn't make the jury.";
+    } else {
+      return "made it to the final tribal council.";
     }
   }
   function castOut(bootMapping) {
