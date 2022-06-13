@@ -107,7 +107,7 @@ export function createFactArray(array, szn) {
       `${idolData.name} found ${idolData.idolsFoundTotalCareer} total idols during their survivor career.`,
       `${idolData.name} had ${idolData.idolsPlayedForCareer} idols played for them during their survivor career.`,
       `In season ${season.version_season}, ${idolData.name} played ${idolData.idolSuccesses} idols successfully.`,
-      `In season${season.version_season}, ${idolData.name} played ${idolData.idolFailures} idols unsuccessfully.`,
+      `In season ${season.version_season}, ${idolData.name} played ${idolData.idolFailures} idols unsuccessfully.`,
       `${idolData.idolsPlayedByCareer} idols were played by ${idolData.name} during their survivor career.`,
       `${idolData.idolsWastedCareer} idols were voted out with ${idolData.name} during their survivor career.`)
   }
