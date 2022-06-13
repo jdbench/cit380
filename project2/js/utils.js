@@ -87,6 +87,7 @@ export function createFactArray(array, szn) {
     `In Season ${season.version_season}, ${season.season_name}, ${castData.name} lasted ${castData.szn_days} days.`,
     `${castData.name} has lasted ${castData.total_days} total days on Survivor.`,
     `${castData.name} ` + isSurvivorDead(castData),
+    `${castData.name}, a ${castData.race} ${castData.gender} from season ${season.version_season}, is from ${castData.state}.`,
     `${bootMapping.name} ${castOut(bootMapping).toLowerCase()} Season ${season.version_season}, ${season.season_name}.`,
     `${bootMapping.name} finished ${bootMapping.placement[0].place}${fixPlaceEnd(bootMapping)} in Season ${season.version_season}, ${season.season_name}.`,
     `In Season ${season.version_season}, ${season.season_name}, ${bootMapping.name} ${wasVotedByJury(bootMapping)}`,
