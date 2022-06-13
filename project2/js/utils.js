@@ -31,7 +31,8 @@ export function getFact(array) {
 
   return fact;
 }
-function getSeasonData(array){
+function getSeasonData(array, szn){
+  let dataTypes = [];
   let randomCast;
   let randomSeason;
   let randomIdol;
@@ -80,16 +81,17 @@ function getSeasonData(array){
     console.log(idolData);
     console.log(bootMapping);
   }
-  return castData, idolData, bootMapping;
+  dataTypes.push(castData, idolData, bootMapping, season);
+
+  return dataTypes;
 }
 /*Get array and turn array data into trivia strings, then store this array data into the facts array */
 export function createFactArray(array, szn) {
   let facts = [];
 
-  facts = castData(facts);
-  facts = idolData(facts);
-  facts = bootMapping(facts);
-
+  facts = castData(array, facts, szn);
+  facts = idolData(array, facts, szn);
+  facts = bootMapping(array, facts, szn);
   return facts;
 }
 
@@ -114,15 +116,16 @@ export function pushOptions(json, element) {
   }
 }
 
-function castData(array){
-  
-  if (array.castData != null){
-    array.push(
+function castData(array, facts, szn){
+  let seasonData = getSeasonData(array, szn);
+  let castData = seasonData[0];
+  let season = seasonData[3];
+
+  if (castData != null){
+    facts.push(
       `In Season ${season.version_season}, ${season.season_name}, ${castData.name} lasted ${castData.szn_days} days.`,
       `${castData.name} has lasted ${castData.total_days} total days on Survivor.`,
       `${castData.name} ` + isSurvivorDead(castData))
-
-      return array;
   }
   function isSurvivorDead(castData) {
     if (castData.deceased == true) {
@@ -131,13 +134,23 @@ function castData(array){
       return "is still living.";
     }
   }
-}
-function bootMapping(array){
 
-  if (array.bootMapping != null){
-    array.push(`${bootMapping.name} ${castOut(bootMapping).toLowerCase()} Season ${season.version_season}, ${season.season_name}.`,
+  return facts;
+}
+function bootMapping(array, facts, szn){
+  let seasonData = getSeasonData(array, szn);
+  let bootMapping = seasonData[2];
+  let season = seasonData[3];
+  console.log(bootMapping);
+
+  if (bootMapping != undefined){
+    facts.push(`${bootMapping.name} ${castOut(bootMapping).toLowerCase()} Season ${season.version_season}, ${season.season_name}.`,
     `${bootMapping.name} finished ${bootMapping.placement[0].place}${fixPlaceEnd(bootMapping)} in Season ${season.version_season}, ${season.season_name}.`,
     `In Season ${season.version_season}, ${season.season_name}, ${bootMapping.name} ${wasVotedByJury(bootMapping)}`)
+  } else{
+    pass;
+  }
+
     function wasVotedByJury(bootMapping) {
       let varElimination = bootMapping.placement[0].elimination;
       if (bootMapping.jury == true) {
@@ -202,12 +215,15 @@ function bootMapping(array){
       }
     }
 
-    return array;
+    return facts;
   }
-}
-function idolData(array){
-  if (array.idolData != null){
-    array.push(
+function idolData(array, facts, szn){
+  let seasonData = getSeasonData(array, szn);
+  let idolData = seasonData[1];
+  let season = seasonData[3];
+
+  if (idolData != null){
+    facts.push(
       `In Season ${season.version_season}, ${season.idolsFound_ClueSeason} idols were found with a clue.`,
       `In Season ${season.version_season}, ${season.idolsFoundNoClueSeason} idols were found without a clue.`,
       `There were ${season.idolsFoundTotalSeason} idols found in season ${season.version_season}.`,
@@ -225,6 +241,6 @@ function idolData(array){
       `${idolData.idolsPlayedByCareer} idols were played by ${idolData.name} during their survivor career.`,
       `${idolData.idolsWastedCareer} idols were voted out with ${idolData.name} during their survivor career.`)
 
-      return array;
+      return facts;
   }
 }
