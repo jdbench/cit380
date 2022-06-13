@@ -103,7 +103,7 @@ export function createFactArray(array, szn) {
     if (bootMapping.jury == true) {
       return "was voted out, but made it to the jury.";
     } else {
-      return "was not voted out, but didn't make the jury.";
+      return "was voted out, but didn't make the jury.";
     }
   }
   function castOut(bootMapping) {
