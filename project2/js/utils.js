@@ -269,7 +269,7 @@ function getFactArray(array, sentences){
   if (sentences == null){
     sentences = 1;
   }
-  for (i=0;i<(sentences);i++){
+  for (i=0;i<=(sentences) && i<array.length;i++){
     fact = getFact(array);
     selectedFacts.push(fact);
   }

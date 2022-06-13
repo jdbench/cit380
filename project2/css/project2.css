@@ -20,7 +20,7 @@
   margin: 0 auto;
   padding: 20px;
   width: 80%;
-  height: 20px;
+  height: 60px;
 }
 .btn {
   font-family: var(--main-font-family);
@@ -60,6 +60,9 @@
 @media  screen and (max-width:986px) {
   .content{
     width: 70%;
+  }
+  .fact-text{
+    height:50px;
   }
 }
 @media screen and (max-width:600px) {
