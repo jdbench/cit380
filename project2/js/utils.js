@@ -92,6 +92,7 @@ export function createFactArray(array, szn) {
   facts = castData(array, facts, szn);
   facts = idolData(array, facts, szn);
   facts = bootMapping(array, facts, szn);
+
   return facts;
 }
 
@@ -120,12 +121,21 @@ function castData(array, facts, szn){
   let seasonData = getSeasonData(array, szn);
   let castData = seasonData[0];
   let season = seasonData[3];
+  let factArray = [];
 
   if (castData != null){
-    facts.push(
+    factArray.push(
       `In Season ${season.version_season}, ${season.season_name}, ${castData.name} lasted ${castData.szn_days} days.`,
       `${castData.name} has lasted ${castData.total_days} total days on Survivor.`,
-      `${castData.name} ` + isSurvivorDead(castData))
+      `${castData.name} ` + isSurvivorDead(castData)
+      )
+
+      factArray = getFactArray(factArray, 3)
+      facts = facts.concat(factArray);
+
+      return facts;
+  } else{
+    return facts;
   }
   function isSurvivorDead(castData) {
     if (castData.deceased == true) {
@@ -134,21 +144,24 @@ function castData(array, facts, szn){
       return "is still living.";
     }
   }
-
-  return facts;
 }
 function bootMapping(array, facts, szn){
   let seasonData = getSeasonData(array, szn);
   let bootMapping = seasonData[2];
   let season = seasonData[3];
-  console.log(bootMapping);
+  let factArray = [];
 
   if (bootMapping != undefined){
-    facts.push(`${bootMapping.name} ${castOut(bootMapping).toLowerCase()} Season ${season.version_season}, ${season.season_name}.`,
+    factArray.push(`${bootMapping.name} ${castOut(bootMapping).toLowerCase()} Season ${season.version_season}, ${season.season_name}.`,
     `${bootMapping.name} finished ${bootMapping.placement[0].place}${fixPlaceEnd(bootMapping)} in Season ${season.version_season}, ${season.season_name}.`,
-    `In Season ${season.version_season}, ${season.season_name}, ${bootMapping.name} ${wasVotedByJury(bootMapping)}`)
+    `In Season ${season.version_season}, ${season.season_name}, ${bootMapping.name} ${wasVotedByJury(bootMapping)}`);
+
+    factArray = getFactArray(factArray, 3)
+    facts = facts.concat(factArray);
+
+    return facts;
   } else{
-    pass;
+    return facts;
   }
 
     function wasVotedByJury(bootMapping) {
@@ -214,16 +227,15 @@ function bootMapping(array, facts, szn){
         return "th";
       }
     }
-
-    return facts;
   }
 function idolData(array, facts, szn){
   let seasonData = getSeasonData(array, szn);
   let idolData = seasonData[1];
   let season = seasonData[3];
+  let factArray = [];
 
   if (idolData != null){
-    facts.push(
+    factArray.push(
       `In Season ${season.version_season}, ${season.idolsFound_ClueSeason} idols were found with a clue.`,
       `In Season ${season.version_season}, ${season.idolsFoundNoClueSeason} idols were found without a clue.`,
       `There were ${season.idolsFoundTotalSeason} idols found in season ${season.version_season}.`,
@@ -241,6 +253,26 @@ function idolData(array, facts, szn){
       `${idolData.idolsPlayedByCareer} idols were played by ${idolData.name} during their survivor career.`,
       `${idolData.idolsWastedCareer} idols were voted out with ${idolData.name} during their survivor career.`)
 
+      factArray = getFactArray(factArray, 3);
+      facts = facts.concat(factArray);
+
       return facts;
+  } else{
+    return facts;
   }
+}
+
+function getFactArray(array, sentences){
+  let i;
+  let fact;
+  let selectedFacts = [];
+  if (sentences == null){
+    sentences = 1;
+  }
+  for (i=0;i<(sentences);i++){
+    fact = getFact(array);
+    selectedFacts.push(fact);
+  }
+
+  return selectedFacts;
 }
