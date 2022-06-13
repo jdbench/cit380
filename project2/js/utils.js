@@ -98,12 +98,12 @@ export function createFactArray(array, szn) {
     `There were ${season.idolsPlayedSeason} idols played in season ${season.version_season}.`,
     `There were ${season.idolsWastedSeason} idols wasted in season ${season.version_season}.`,
     `${season.votesNullifiedSeason} votes were nullified by idols in season ${season.version_season}.`,
-    `In ${idolData.version_season}, ${idolData.name} found ${idolData.idolsFound_Clue} idols with a clue.`,
-    `In ${idolData.version_season}, ${idolData.name} found ${idolData.idolsFoundNoClue} idols without a clue.`,
+    `In ${season.version_season}, ${idolData.name} found ${idolData.idolsFound_Clue} idols with a clue.`,
+    `In ${season.version_season}, ${idolData.name} found ${idolData.idolsFoundNoClue} idols without a clue.`,
     `${idolData.name} found ${idolData.idolsFoundTotalCareer} total idols during their survivor career.`,
     `${idolData.name} had ${idolData.idolsPlayedForCareer} idols played for them during their survivor career.`,
-    `In ${idolData.version_season}, ${idolData.name} played ${idolData.idolSuccesses} idols successfully.`,
-    `In ${idolData.version_season}, ${idolData.name} played ${idolData.idolFailures} idols unsuccessfully.`,
+    `In ${season.version_season}, ${idolData.name} played ${idolData.idolSuccesses} idols successfully.`,
+    `In ${season.version_season}, ${idolData.name} played ${idolData.idolFailures} idols unsuccessfully.`,
     `${idolData.idolsPlayedByCareer} idols were played by ${idolData.name} during their survivor career.`,
     `${idolData.idolsWastedCareer} idols were voted out with ${idolData.name} during their survivor career.`
   ];
