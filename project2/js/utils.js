@@ -31,9 +31,8 @@ export function getFact(array) {
 
   return fact;
 }
-/*Get array and turn array data into trivia strings, then store this array data into the facts array */
-export function createFactArray(array, szn) {
-  let facts = [];
+function getSeasonData(array, szn){
+  let dataTypes = [];
   let randomCast;
   let randomSeason;
   let randomIdol;
@@ -82,106 +81,17 @@ export function createFactArray(array, szn) {
     console.log(idolData);
     console.log(bootMapping);
   }
+  dataTypes.push(castData, idolData, bootMapping, season);
 
-  facts = [
-    `In Season ${season.version_season}, ${season.season_name}, ${castData.name} lasted ${castData.szn_days} days.`,
-    `${castData.name} has lasted ${castData.total_days} total days on Survivor.`,
-    `${castData.name} ` + isSurvivorDead(castData),
-    `${castData.name}, a ${castData.race} ${castData.gender} from season ${season.version_season}, is from ${castData.state}.`,
-    `${bootMapping.name} ${castOut(bootMapping).toLowerCase()} Season ${season.version_season}, ${season.season_name}.`,
-    `${bootMapping.name} finished ${bootMapping.placement[0].place}${fixPlaceEnd(bootMapping)} in Season ${season.version_season}, ${season.season_name}.`,
-    `In Season ${season.version_season}, ${season.season_name}, ${bootMapping.name} ${wasVotedByJury(bootMapping)}`,
-  ];
+  return dataTypes;
+}
+/*Get array and turn array data into trivia strings, then store this array data into the facts array */
+export function createFactArray(array, szn) {
+  let facts = [];
 
-  if (idolData != null){
-    facts.push(
-      `In season ${season.version_season}, ${season.idolsFound_ClueSeason} idols were found with a clue.`,
-      `In season ${season.version_season}, ${season.idolsFoundNoClueSeason} idols were found without a clue.`,
-      `There were ${season.idolsFoundTotalSeason} idols found in season ${season.version_season}.`,
-      `${season.idolSuccessesSeason} idols were successfully played in season ${season.version_season}.`,
-      `${season.idolFailuresSeason} idols were misplayed in season ${season.version_season}.`,
-      `There were ${season.idolsPlayedSeason} idols played in season ${season.version_season}.`,
-      `There were ${season.idolsWastedSeason} idols wasted in season ${season.version_season}.`,
-      `${season.votesNullifiedSeason} votes were nullified by idols in season ${season.version_season}.`,
-      `In ${season.version_season}, ${idolData.name} found ${idolData.idolsFound_Clue} idols with a clue.`,
-      `In ${season.version_season}, ${idolData.name} found ${idolData.idolsFoundNoClue} idols without a clue.`,
-      `${idolData.name} found ${idolData.idolsFoundTotalCareer} total idols during their survivor career.`,
-      `${idolData.name} had ${idolData.idolsPlayedForCareer} idols played for them during their survivor career.`,
-      `In season ${season.version_season}, ${idolData.name} played ${idolData.idolSuccesses} idols successfully.`,
-      `In season ${season.version_season}, ${idolData.name} played ${idolData.idolFailures} idols unsuccessfully.`,
-      `${idolData.idolsPlayedByCareer} idols were played by ${idolData.name} during their survivor career.`,
-      `${idolData.idolsWastedCareer} idols were voted out with ${idolData.name} during their survivor career.`)
-  }
-
-  function isSurvivorDead(castData) {
-    if (castData.deceased == true) {
-      return "is no longer living.";
-    } else {
-      return "is still living.";
-    }
-  }
-  function wasVotedByJury(bootMapping) {
-    let varElimination = bootMapping.placement[0].elimination;
-    if (bootMapping.jury == true) {
-      return "was voted out, but made it to the jury.";
-    } else if (varElimination != "Winner"|varElimination != "Runner-up"){
-      return "was voted out, but didn't make the jury.";
-    } else {
-      return "made it to the final tribal council.";
-    }
-  }
-  function castOut(bootMapping) {
-    let varElimination = bootMapping.placement[0].elimination;
-    if (varElimination == "Voted Out") {
-      return "was voted out in";
-    } else if (varElimination == "Quit") {
-      return "quit during";
-    } else if (varElimination == "Voted Out but Returned"){
-      return "was voted out, but returned to the game by winning a challenge in";
-    } else if (varElimination == "MedEvac") {
-      return "was medically evacuated from";
-    } else if (varElimination == "Ejected") {
-      return "was the first person to be ejected from the game in";
-    } else if (varElimination == "Family Emergency") {
-      return "was removed from the game due to a family emergency during";
-    } else if (varElimination == "Winner"|varElimination == "Runner-up") {
-      return `was the ${varElimination} in`;
-    } else if (varElimination == "Switched"|varElimination == "Voted Out but Switched") {
-      return "switched places with their spouse after a vote during";
-    } else {
-      return "lost a tiebreaker in a tie vote"
-    }
-  }
-  function fixPlaceEnd(bootMapping) {
-    let placed = bootMapping.placement[0].place;
-    if (
-      placed == "1" ||
-      placed == "21" ||
-      placed == "31" ||
-      placed == "41" ||
-      placed == "51"
-    ) {
-      return "st";
-    } else if (
-      placed == "2" ||
-      placed == "22" ||
-      placed == "32" ||
-      placed == "42" ||
-      placed == "52"
-    ) {
-      return "nd";
-    } else if (
-      placed == "3" ||
-      placed == "23" ||
-      placed == "33" ||
-      placed == "43" ||
-      placed == "53"
-    ) {
-      return "rd";
-    } else {
-      return "th";
-    }
-  }
+  facts = castData(array, facts, szn);
+  facts = idolData(array, facts, szn);
+  facts = bootMapping(array, facts, szn);
 
   return facts;
 }
@@ -205,4 +115,164 @@ export function pushOptions(json, element) {
 
     element.appendChild(option);
   }
+}
+
+function castData(array, facts, szn){
+  let seasonData = getSeasonData(array, szn);
+  let castData = seasonData[0];
+  let season = seasonData[3];
+  let factArray = [];
+
+  if (castData != null){
+    factArray.push(
+      `In Season ${season.version_season}, ${season.season_name}, ${castData.name} lasted ${castData.szn_days} days.`,
+      `${castData.name} has lasted ${castData.total_days} total days on Survivor.`,
+      `${castData.name} ` + isSurvivorDead(castData)
+      )
+
+      factArray = getFactArray(factArray, 3)
+      facts = facts.concat(factArray);
+
+      return facts;
+  } else{
+    return facts;
+  }
+  function isSurvivorDead(castData) {
+    if (castData.deceased == true) {
+      return "is no longer living.";
+    } else {
+      return "is still living.";
+    }
+  }
+}
+function bootMapping(array, facts, szn){
+  let seasonData = getSeasonData(array, szn);
+  let bootMapping = seasonData[2];
+  let season = seasonData[3];
+  let factArray = [];
+
+  if (bootMapping != undefined){
+    factArray.push(`${bootMapping.name} ${castOut(bootMapping).toLowerCase()} Season ${season.version_season}, ${season.season_name}.`,
+    `${bootMapping.name} finished ${bootMapping.placement[0].place}${fixPlaceEnd(bootMapping)} in Season ${season.version_season}, ${season.season_name}.`,
+    `In Season ${season.version_season}, ${season.season_name}, ${bootMapping.name} ${wasVotedByJury(bootMapping)}`);
+
+    factArray = getFactArray(factArray, 3)
+    facts = facts.concat(factArray);
+
+    return facts;
+  } else{
+    return facts;
+  }
+
+    function wasVotedByJury(bootMapping) {
+      let varElimination = bootMapping.placement[0].elimination;
+      if (bootMapping.jury == true) {
+        return "was voted out, but made it to the jury.";
+      } else if (varElimination != "Winner"|varElimination != "Runner-up"){
+        return "was voted out, but didn't make the jury.";
+      } else {
+        return "made it to the final tribal council.";
+      }
+    }
+    function castOut(bootMapping) {
+      let varElimination = bootMapping.placement[0].elimination;
+      if (varElimination == "Voted Out") {
+        return "was voted out in";
+      } else if (varElimination == "Quit") {
+        return "quit during";
+      } else if (varElimination == "Voted Out but Returned"){
+        return "was voted out, but returned to the game by winning a challenge in";
+      } else if (varElimination == "MedEvac") {
+        return "was medically evacuated from";
+      } else if (varElimination == "Ejected") {
+        return "was the first person to be ejected from the game in";
+      } else if (varElimination == "Family Emergency") {
+        return "was removed from the game due to a family emergency during";
+      } else if (varElimination == "Winner"|varElimination == "Runner-up") {
+        return `was the ${varElimination} in`;
+      } else if (varElimination == "Switched"|varElimination == "Voted Out but Switched") {
+        return "switched places with their spouse after a vote during";
+      } else {
+        return "lost a tiebreaker in a tie vote"
+      }
+    }
+
+    function fixPlaceEnd(bootMapping) {
+      let placed = bootMapping.placement[0].place;
+      if (
+        placed == "1" ||
+        placed == "21" ||
+        placed == "31" ||
+        placed == "41" ||
+        placed == "51"
+      ) {
+        return "st";
+      } else if (
+        placed == "2" ||
+        placed == "22" ||
+        placed == "32" ||
+        placed == "42" ||
+        placed == "52"
+      ) {
+        return "nd";
+      } else if (
+        placed == "3" ||
+        placed == "23" ||
+        placed == "33" ||
+        placed == "43" ||
+        placed == "53"
+      ) {
+        return "rd";
+      } else {
+        return "th";
+      }
+    }
+  }
+function idolData(array, facts, szn){
+  let seasonData = getSeasonData(array, szn);
+  let idolData = seasonData[1];
+  let season = seasonData[3];
+  let factArray = [];
+
+  if (idolData != null){
+    factArray.push(
+      `In Season ${season.version_season}, ${season.idolsFound_ClueSeason} idols were found with a clue.`,
+      `In Season ${season.version_season}, ${season.idolsFoundNoClueSeason} idols were found without a clue.`,
+      `There were ${season.idolsFoundTotalSeason} idols found in season ${season.version_season}.`,
+      `${season.idolSuccessesSeason} idols were successfully played in season ${season.version_season}.`,
+      `${season.idolFailuresSeason} idols were misplayed in season ${season.version_season}.`,
+      `There were ${season.idolsPlayedSeason} idols played in season ${season.version_season}.`,
+      `There were ${season.idolsWastedSeason} idols wasted in season ${season.version_season}.`,
+      `${season.votesNullifiedSeason} votes were nullified by idols in season ${season.version_season}.`,
+      `In Season ${season.version_season}, ${idolData.name} found ${idolData.idolsFound_Clue} idols with a clue.`,
+      `In Season ${season.version_season}, ${idolData.name} found ${idolData.idolsFoundNoClue} idols without a clue.`,
+      `${idolData.name} found ${idolData.idolsFoundTotalCareer} total idols during their survivor career.`,
+      `${idolData.name} had ${idolData.idolsPlayedForCareer} idols played for them during their survivor career.`,
+      `In Season ${season.version_season}, ${idolData.name} played ${idolData.idolSuccesses} idols successfully.`,
+      `In Season ${season.version_season}, ${idolData.name} played ${idolData.idolFailures} idols unsuccessfully.`,
+      `${idolData.idolsPlayedByCareer} idols were played by ${idolData.name} during their survivor career.`,
+      `${idolData.idolsWastedCareer} idols were voted out with ${idolData.name} during their survivor career.`)
+
+      factArray = getFactArray(factArray, 3);
+      facts = facts.concat(factArray);
+
+      return facts;
+  } else{
+    return facts;
+  }
+}
+
+function getFactArray(array, sentences){
+  let i;
+  let fact;
+  let selectedFacts = [];
+  if (sentences == null){
+    sentences = 1;
+  }
+  for (i=0;i<(sentences);i++){
+    fact = getFact(array);
+    selectedFacts.push(fact);
+  }
+
+  return selectedFacts;
 }
