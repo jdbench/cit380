@@ -90,6 +90,22 @@ export function createFactArray(array, szn) {
     `${bootMapping.name} ${castOut(bootMapping).toLowerCase()} Season ${season.version_season}, ${season.season_name}.`,
     `${bootMapping.name} finished ${bootMapping.placement[0].place}${fixPlaceEnd(bootMapping)} in Season ${season.version_season}, ${season.season_name}.`,
     `In Season ${season.version_season}, ${season.season_name}, ${bootMapping.name} ${wasVotedByJury(bootMapping)}`,
+    `In season ${season.version_season}, ${season.idolsFound_ClueSeason} idols were found with a clue.`,
+    `In season ${season.version_season}, ${season.idolsFoundNoClueSeason} idols were found without a clue.`,
+    `There were ${season.idolsFoundTotalSeason} idols found in season ${season.version_season}.`,
+    `${season.idolSuccessesSeason} idols were successful in season ${season.version_season}.`,
+    `${season.idolFailuresSeason} idols failed in season ${season.version_season}.`,
+    `There were ${season.idolsPlayedSeason} idols played in season ${season.version_season}.`,
+    `There were ${season.idolsWastedSeason} idols wasted in season ${season.version_season}.`,
+    `${season.votesNullifiedSeason} votes were nullified by votes in season ${season.version_season}.`,
+    `${idolData.name} found ${idolData.idolsFound_Clue} idols with a clue.`,
+    `${idolData.name} found ${idolData.idolsFoundNoClue} idols without a clue.`,
+    `${idolData.name} found ${idolData.idolsFoundTotal} total idols.`,
+    `${idolData.name} played for ${idolData.idolsPlayedFor} idols.`,
+    `${idolData.name} used ${idolData.idolSuccesses} idols successfully.`,
+    `${idolData.name} used ${idolData.idolFailures} idols unsuccessfully.`,
+    `${idolData.idolsPlayedBy} idols were played by ${idolData.name}.`,
+    `${idolData.idolsWasted} idols were wasted by ${idolData.name}.`
   ];
 
   function isSurvivorDead(castData) {
