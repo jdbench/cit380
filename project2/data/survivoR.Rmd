@@ -190,7 +190,7 @@ boot <- vote_history %>% select('version_season',
   unique() %>% ungroup() %>% group_by(version_season, castaway_id) %>%
   unique() %>% left_join(bootReason, by=c('version_season','castaway_id')) %>%
   select(-c('order','jury_status')) %>% 
-  filter(!(str_detect(result,'Sole|unner|Elim') & place > 5),
+  filter(!(str_detect(result,'Sole|unner') & place > 5),
          !(str_detect(result,'vote') & place < 3),
          !(str_detect(result,'4th') & place == 4)) %>%
   mutate(jury = case_when(n() > 1 & min(place) > 3 ~ TRUE, TRUE ~ jury),
@@ -211,6 +211,7 @@ boot <- vote_history %>% select('version_season',
              version_season == 'US10' ~ 'Not Picked',
              TRUE ~ 'Rock Draw Tie'),
            TRUE ~ result)) %>%
+  filter(!(version_season == "US38" & result == "Rock Draw Tie")) %>%
   rename(elimination = result) %>% unique()
 
 bootJSON <- boot %>% 
