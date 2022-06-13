@@ -117,9 +117,9 @@ export function createFactArray(array, szn) {
   }
   function wasVotedByJury(bootMapping) {
     if (bootMapping.jury == true) {
-      return "was voted out by a jury.";
+      return "was voted out, but made it to the jury.";
     } else {
-      return "was not voted out by a jury.";
+      return "was not voted out, but didn't make the jury.";
     }
   }
   function castOut(bootMapping) {
@@ -129,9 +129,19 @@ export function createFactArray(array, szn) {
     } else if (varElimination == "Quit") {
       return "quit during";
     } else if (varElimination == "Voted Out but Returned"){
-      return "was voted out, but returned in"
-    }else {
+      return "was voted out, but returned to the game by winning a challenge in";
+    } else if (varElimination == "MedEvac") {
+      return "was medically evacuated from";
+    } else if (varElimination == "Ejected") {
+      return "was the first person to be ejected from the game in";
+    } else if (varElimination == "Family Emergency") {
+      return "was removed from the game due to a family emergency during";
+    } else if (varElimination == "Winner"|varElimination == "Runner-up") {
       return `was the ${varElimination} in`;
+    } else if (varElimination == "Switched"|varElimination == "Voted Out but Switched") {
+      return "switched places with their spouse after a vote during";
+    } else {
+      return "lost a tiebreaker in a tie vote"
     }
   }
   function fixPlaceEnd(bootMapping) {

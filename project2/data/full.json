@@ -4134,6 +4134,28 @@
     ],
     "bootMapping": [
       {
+        "castaway_id": "US0131",
+        "name": "Jonathan Libby",
+        "jury": false,
+        "placement": [
+          {
+            "place": 20,
+            "elimination": "Not Picked"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0132",
+        "name": "Wanda Shirk",
+        "jury": false,
+        "placement": [
+          {
+            "place": 19,
+            "elimination": "Not Picked"
+          }
+        ]
+      },
+      {
         "castaway_id": "US0133",
         "name": "Jolanda Jones",
         "jury": false,
@@ -4218,6 +4240,17 @@
           {
             "place": 11,
             "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0141",
+        "name": "Bobby Jon Drinkard",
+        "jury": false,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Firemaking Tie"
           }
         ]
       },
@@ -13620,6 +13653,17 @@
         ]
       },
       {
+        "castaway_id": "US0404",
+        "name": "Katie Collins",
+        "jury": true,
+        "placement": [
+          {
+            "place": 7,
+            "elimination": "Rock Draw Tie"
+          }
+        ]
+      },
+      {
         "castaway_id": "US0405",
         "name": "Hayden Moss",
         "jury": true,
@@ -17069,6 +17113,17 @@
         ]
       },
       {
+        "castaway_id": "US0489",
+        "name": "Jessica Lewis",
+        "jury": true,
+        "placement": [
+          {
+            "place": 10,
+            "elimination": "Rock Draw Tie"
+          }
+        ]
+      },
+      {
         "castaway_id": "US0490",
         "name": "Zeke Smith",
         "jury": true,
@@ -17786,6 +17841,17 @@
           {
             "place": 7,
             "elimination": "Voted Out"
+          }
+        ]
+      },
+      {
+        "castaway_id": "US0179",
+        "name": "Cirie Fields",
+        "jury": true,
+        "placement": [
+          {
+            "place": 6,
+            "elimination": "All Others Immune"
           }
         ]
       },
